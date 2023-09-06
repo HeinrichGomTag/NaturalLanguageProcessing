@@ -1,4 +1,4 @@
-Title,Traslated_Texts
+Title,Translated_Texts
 How can I find the full path to a font from its display name on a Mac?,¿Cómo puedo encontrar la ruta completa a una fuente desde su nombre de pantalla en una Mac?
 Get a preview JPEG of a PDF on Windows?,¿Obtener una vista previa JPEG de un PDF en Windows?
 Continuous Integration System for a Python Codebase,Sistema de integración continua para una base de código Python
@@ -20,7 +20,7 @@ Programmatically talking to a Serial Port in OS X or Linux,Hablar programáticam
 How to sell Python to a client/boss/person with lots of cash,Cómo vender Python a un cliente/jefe/persona con mucho efectivo
 How do you set up Python scripts to work in Apache 2.0?,¿Cómo se configura los scripts de Python para que funcionen en Apache 2.0?
 Does anyone have experience creating a shared library in MATLAB?,¿Alguien tiene experiencia creando una biblioteca compartida en MATLAB?
-"Cross Platform, Language Agnostic GUI Markup Language?","Plataforma cruzada, lenguaje agnóstico GUI Markup Lenguaje?"
+"Cross Platform, Language Agnostic GUI Markup Language?","Plataforma cruzada, lenguaje agnóstico GUI Markup Language?"
 Convert Bytes to Floating Point Numbers in Python,Convierta bytes en números de puntos flotantes en Python
 "Python, Unicode, and the Windows console","Python, Unicode y la consola de Windows"
 Get size of a file before downloading in Python,Obtenga el tamaño de un archivo antes de descargar en Python
@@ -32,8 +32,8 @@ How do I treat an integer as an array of bytes in Python?,¿Cómo trato a un ent
 How should I unit test a code-generator?,¿Cómo debo probar un generador de código?
 Using an XML catalog with Python's lxml?,¿Usando un catálogo XML con LXML de Python?
 Can you check that an exception is thrown with doctest in Python?,¿Puedes verificar que se lanza una excepción con Doctest en Python?
-Replacement for for... if array iteration,Reemplazo de para ... si iteración de matriz
-Python version of PHP's stripslashes,Versión de Python de StripsLashes de PHP
+Replacement for for... if array iteration,Reemplazo para ... si iteración de matriz
+Python version of PHP's stripslashes,Versión de Python de Php's StripsLashes
 Python Regular Expressions to implement string unescaping,Expresiones regulares de Python para implementar String Unescaping
 Can you explain closures (as they relate to Python)?,¿Puedes explicar los cierres (como se relacionan con Python)?
 "Python Sound (""Bell"")","Python Sound (""Bell"")"
@@ -42,16 +42,16 @@ Regex and unicode,Regex y unicode
 How do I validate xml against a DTD file in Python,¿Cómo valido XML con un archivo DTD en Python?
 Prototyping with Python code before compiling,Prototipos con código Python antes de compilar
 Sanitising user input using Python,Desinfectación de la entrada del usuario con Python
-Create an encrypted ZIP file in Python,Crear un archivo zip cifrado en Python
+Create an encrypted ZIP file in Python,Crear un archivo zip encriptado en Python
 What's the best way to distribute python command-line tools?,¿Cuál es la mejor manera de distribuir herramientas de línea de comandos de Python?
 How to check set of files conform to a naming scheme,Cómo verificar el conjunto de archivos ajustados a un esquema de nomenclatura
 Build a Basic Python Iterator,Construye un iterador básico de Python
 A Transpose/Unzip Function in Python (inverse of zip),Una función de transposición/descompuesto en Python (inverso de zip)
 Introducing Python,Presentando Python
-What's the best way to grab/parse command line arguments passed to a Python script?,¿Cuál es la mejor manera de atrapar/analizar argumentos de línea de comandos pasados ​​a un guión de Python?
+What's the best way to grab/parse command line arguments passed to a Python script?,¿Cuál es la mejor manera de obtener/analizar argumentos de línea de comandos pasados ​​a un guión de Python?
 Find broken symlinks with Python,Encuentra enlaces simbólicos rotos con Python
 updating an auto_now DateTimeField in a parent model w/ Django,Actualización de un auto -datetimefield en un modelo principal con django
-Specifying a mySQL ENUM in a Django model,Especificando un enum de mysql en un modelo django
+Specifying a mySQL ENUM in a Django model,Especificar un enum de MySQL en un modelo Django
 Why Java and Python garbage collection methods are different?,¿Por qué los métodos de recolección de basura de Java y Python son diferentes?
 Why does this python date/time conversion seem wrong?,¿Por qué esta conversión de fecha/hora de Python parece incorrecta?
 "How do content discovery engines, like Zemanta and Open Calais work?","¿Cómo funcionan los motores de descubrimiento de contenido, como Zemanta y Open Calais?"
@@ -75,7 +75,7 @@ Best way to extract data from a FileMaker Pro database in a script?,¿La mejor m
 What refactoring tools do you use for Python?,¿Qué herramientas de refactorización usas para Python?
 What's the best way to use web services in python?,¿Cuál es la mejor manera de usar los servicios web en Python?
 How do I create an xml document in python,¿Cómo creo un documento XML en Python?
-Python distutils - does anyone know how to use it?,Python Distutils: ¿alguien sabe cómo usarlo?
+Python distutils - does anyone know how to use it?,Python Distutils - ¿Alguien sabe cómo usarlo?
 Install Python to match directory layout in OS X 10.5,Instale Python para que coincida con el diseño del directorio en OS X 10.5
 "How do threads work in Python, and what are common Python-threading specific pitfalls?",¿Cómo funcionan los hilos en Python y cuáles son las trampas específicas comunes de pulsación de pitón?
 How can I render a tree structure (recursive) using a django template?,¿Cómo puedo representar una estructura de árbol (recursiva) usando una plantilla de Django?
@@ -88,11 +88,11 @@ Find out how much memory is being used by an object in Python,Descubra cuánta m
 Are Python threads buggy?,¿Son los hilos de Python buggy?
 How to specify an authenticated proxy for a python http connection?,¿Cómo especificar un proxy autenticado para una conexión Python HTTP?
 Django ImageField core=False in newforms admin,Django Imagefield Core = False en NewForms Admin
-Python descriptor protocol analog in other languages?,¿Analógico de protocolo Descriptor de Python en otros idiomas?
+Python descriptor protocol analog in other languages?,¿Analógico de protocolo de descriptor de Python en otros idiomas?
 How do I make Windows aware of a service I have written in Python?,¿Cómo hago que Windows consciente de un servicio que he escrito en Python?
 Finding what methods an object has,Encontrar qué métodos tiene un objeto
-Scaffolding in pylons,Andamiaje en pilones
-Validate (X)HTML in Python,Validar (x) html en pitón
+Scaffolding in pylons,Andamios en pilones
+Validate (X)HTML in Python,Validar (x) html en python
 Why does Python's iter() on a mapping return iterkeys() instead of iteritems()?,¿Por qué Python's iter () en un mapeo returina iterkeys () en lugar de iteritems ()?
 "Ruby ""is"" equivalent","Ruby ""es"" equivalente"
 Is Python good for big software projects (not web based)?,¿Python es bueno para grandes proyectos de software (no basados ​​en la web)?
@@ -107,7 +107,7 @@ How do I add data to an existing model in Django?,¿Cómo agrego datos a un mode
 What does ** (double star) and * (star) do for Python parameters?,¿Qué hace ** (doble estrella) y * (estrella) por los parámetros de Python?
 How can I represent an 'Enum' in Python?,¿Cómo puedo representar a un 'enum' en Python?
 "Resources for lexing, tokenising and parsing in python","Recursos para lexing, tokenising y análisis en Python"
-How to make Ruby or Python web sites to use multiple cores?,¿Cómo hacer sitios web de Ruby o Python para usar múltiples núcleos?
+How to make Ruby or Python web sites to use multiple cores?,¿Cómo hacer que los sitios web de Ruby o Python usen múltiples núcleos?
 How can I simply inherit methods from an existing instance?,¿Cómo puedo simplemente heredar los métodos de una instancia existente?
 Filter out HTML tags and resolve entities in python,Filtrar etiquetas HTML y resolver entidades en Python
 What's the easiest way to read a FoxPro DBF file from Python?,¿Cuál es la forma más fácil de leer un archivo FoxPro DBF de Python?
@@ -125,17 +125,17 @@ javascript locals()?,JavaScript Locals ()?
 cx_Oracle: how do I get the ORA-xxxxx error number?,CX_Oracle: ¿Cómo obtengo el número de error Ora-XXXXX?
 Python deployment and /usr/bin/env portability,Implementación de Python y/usr/bin/env portabilidad
 Always including the user in the django template context,Siempre incluir al usuario en el contexto de la plantilla de Django
-How do I do monkeypatching in python?,¿Cómo hago el mono mono en Python?
+How do I do monkeypatching in python?,¿Cómo hago el mono de los monos en Python?
 Splitting tuples in Python - best practice?,Dividir tuplas en Python - ¿Mejores prácticas?
 Standard way to open a folder window in linux?,¿Forma estándar de abrir una ventana de carpeta en Linux?
 What is a tuple useful for?,¿Para qué es útil una tupla?
 Best way to extract text from a Word doc without using COM/automation?,¿La mejor manera de extraer texto de un documento de Word sin usar COM/Automation?
 Python re.sub MULTILINE caret match,Python re.sub Multiline Caret Match
 Get Last Day of the Month in Python,Obtenga el último día del mes en Python
-How can I get a commit message from a bzr post-commit hook?,¿Cómo puedo recibir un mensaje de confirmación de un gancho de BZR posterior a la Comunidad?
+How can I get a commit message from a bzr post-commit hook?,¿Cómo puedo obtener un mensaje de confirmación de un gancho de BZR posterior al comité?
 How to generate urls in django,Cómo generar URL en Django
 Can I write native iPhone apps using Python,¿Puedo escribir aplicaciones nativas de iPhone usando Python?
-A python web application framework for tight DB/GUI coupling?,¿Un marco de aplicaciones web de Python para un acoplamiento DB/GUI ajustado?
+A python web application framework for tight DB/GUI coupling?,¿Un marco de aplicaciones web de Python para un acoplamiento ajustado de DB/GUI?
 How to find the mime type of a file in python?,¿Cómo encontrar el tipo de mime de un archivo en Python?
 Pros and Cons of different approaches to web programming in Python,Pros y contras de diferentes enfoques para la programación web en Python
 Modulus operation with negatives values - weird thing?,Operación del módulo con valores negativos: ¿algo extraño?
@@ -159,7 +159,7 @@ User Authentication in Pylons + AuthKit,Autenticación del usuario en Pylons + A
 What are the advantages of packaging your python library/application as an .egg file?,¿Cuáles son las ventajas de empacar su biblioteca/aplicación de Python como un archivo .Egg?
 Glade or no glade: What is the best way to use PyGtk?,Glade o no Glade: ¿Cuál es la mejor manera de usar Pygtk?
 Embedding a remote Python shell in an application,Incrustar un shell de pitón remoto en una aplicación
-Project structure for Google App Engine,Estructura de proyecto para Google App Engine
+Project structure for Google App Engine,Estructura del proyecto para Google App Engine
 How do I implement a pre-commit hook script in SVN that calls dos2unix to validate checked-in file,¿Cómo implemento un script de gancho precomito en SVN que llama a Dos2unix para validar el archivo registrado?
 Python: No module named core.exceptions,Python: sin módulo llamado Core.excepciones
 Calling python from a c++ program for distribution,Llamar a Python desde un programa C ++ para su distribución
@@ -168,7 +168,7 @@ Can parallel traversals be done in MATLAB just as in Python?,¿Se pueden hacer l
 "How does one decrypt a PDF with an owner password, but no user password?","¿Cómo se descifra un PDF con una contraseña del propietario, pero no hay contraseña de usuario?"
 Java -> Python?,Java -> Python?
 Open source alternative to MATLAB's fmincon function?,¿Alternativa de código abierto a la función fmincon de Matlab?
-What Python way would you suggest to check whois database records?,¿Qué forma de Python sugerirías verificar los registros de la base de datos de Whois?
+What Python way would you suggest to check whois database records?,¿Qué forma de Python sugerirías para verificar los registros de la base de datos de Whois?
 How do I get the path and name of the file that is currently executing?,¿Cómo obtengo la ruta y el nombre del archivo que se está ejecutando actualmente?
 Django Sessions,Sesiones de django
 How do you create a weak reference to an object in Python?,¿Cómo se crea una referencia débil a un objeto en Python?
@@ -178,7 +178,7 @@ How can I retrieve the page title of a webpage using Python?,¿Cómo puedo recup
 Passing on named variable arguments in python,Pasando argumentos variables nombrados en Python
 Improving Python readability?,¿Mejorando la legibilidad de Python?
 How to get an absolute file path in Python,Cómo obtener una ruta de archivo absoluta en Python
-Why are SQL aggregate functions so much slower than Python and Java (or Poor Man's OLAP),¿Por qué las funciones agregadas de SQL son tan mucho más lentas que Python y Java (o Olap del pobre hombre)?
+Why are SQL aggregate functions so much slower than Python and Java (or Poor Man's OLAP),¿Por qué las funciones agregadas de SQL son mucho más lentas que Python y Java (o Olap del pobre hombre)?
 Cross-platform space remaining on volume using python,Espacio multiplataforma restante en volumen usando Python
 Large Python Includes,Python grande incluye
 How can I do a line break (line continuation) in Python?,¿Cómo puedo hacer un descanso de línea (continuación de la línea) en Python?
@@ -190,7 +190,7 @@ Any good AJAX framework for Google App Engine apps?,¿Algún buen marco AJAX par
 What is the difference between old style and new style classes in Python?,¿Cuál es la diferencia entre el estilo antiguo y las nuevas clases de estilo en Python?
 "In Python, how can you easily retrieve sorted items from a dictionary?","En Python, ¿cómo puede recuperar fácilmente los artículos clasificados de un diccionario?"
 How can I get Emacs' key bindings in Python's IDLE?,¿Cómo puedo obtener los enlaces clave de Emacs en el inactivo de Python?
-Python regular expression for HTML parsing (BeautifulSoup),Expresión regular de Python para el análisis HTML (beautifulsoup)
+Python regular expression for HTML parsing (BeautifulSoup),Expresión regular de Python para análisis HTML (beautifulsoup)
 XML writing tools for Python,Herramientas de escritura XML para Python
 Anyone used Dabo for a medium-big project?,¿Alguien usó Dabo para un proyecto de big-big?
 round() in Python doesn't seem to be rounding properly,Round () en Python no parece estar redondeando correctamente
@@ -216,7 +216,7 @@ Is it pythonic for a function to return multiple values?,¿Es pitónico que una 
 python cgi on IIS,Python CGI en IIS
 What's a good way to find relative paths in Google App Engine?,¿Cuál es una buena manera de encontrar rutas relativas en Google App Engine?
 Comparing runtimes,Comparación de tiempos de ejecución
-"Is there a way around coding in Python without the tab, indent & whitespace criteria?","¿Hay alguna forma de codificar en Python sin los criterios de pestaña, sangría y espacio en blanco?"
+"Is there a way around coding in Python without the tab, indent & whitespace criteria?","¿Hay alguna manera de codificar en Python sin los criterios de pestaña, sangría y espacio en blanco?"
 Which is the most useful Mercurial hook for programming in a loosely connected team?,¿Cuál es el gancho Mercurial más útil para la programación en un equipo poco conectado?
 How create threads under Python for Delphi,Cómo crear hilos en Python para Delphi
 Classes in Python,Clases en Python
@@ -234,7 +234,7 @@ How do I create a new signal in pygtk,¿Cómo creo una nueva señal en pygtk?
 why might my pyglet vertex lists and batches be very slow on Windows?,¿Por qué podrían mis listas y lotes de vértices Pyglet ser muy lentos en Windows?
 Serving dynamically generated ZIP archives in Django,Servir archivos zip generados dinámicamente en django
 How to import a module given the full path?,¿Cómo importar un módulo dado la ruta completa?
-"Why do you need explicitly have the ""self"" argument into a Python method?","¿Por qué necesita explícitamente el argumento ""propio"" en un método de Python?"
+"Why do you need explicitly have the ""self"" argument into a Python method?","¿Por qué necesitas tener explícitamente el argumento ""propio"" en un método de Python?"
 Change command Method for Tkinter Button in Python,Cambiar el método de comando para el botón Tkinter en Python
 How to copy a file to a remote server in Python using SCP or SSH?,¿Cómo copiar un archivo a un servidor remoto en Python usando SCP o SSH?
 Send file using POST from a Python script,Enviar archivo usando la publicación desde un script de Python
@@ -295,7 +295,7 @@ How to programmatically enable/disable network interfaces? (Windows XP),¿Cómo 
 Why isn't the 'len' function inherited by dictionaries and lists in Python,¿Por qué no se hereda la función de 'len' por diccionarios y listas en Python?
 Running multiple sites from a single Python web framework,Ejecutar múltiples sitios desde un solo marco web de Python
 Python - time.clock() vs. time.time() - accuracy?,Python - Time.Clock () vs. Time.time () - ¿Precisión?
-Search for host with MAC-address using Python,Busque el host con el dirección Mac usando Python
+Search for host with MAC-address using Python,Busque el host con el dirección Mac con Python
 How to best implement simple crash / error reporting?,¿Cómo implementar mejor los informes simples de bloqueos / errores?
 What are the pros and cons of the various Python implementations?,¿Cuáles son los pros y los contras de las diversas implementaciones de Python?
 Get list of XML attribute values in Python,Obtenga una lista de valores de atributos XML en Python
@@ -320,7 +320,7 @@ Stripping non printable characters from a string in python,Desmontaje de caracte
 Python module functions used in unexpected ways,Funciones del módulo de Python utilizadas de maneras inesperadas
 How can I highlight text in Scintilla?,¿Cómo puedo resaltar el texto en Scintilla?
 Python sockets suddenly timing out?,¿Los enchufes de Python de repente se agotan?
-time.sleep -- sleeps thread or process?,TIEMPO.Leep - ¿Sleeps hilo o proceso?
+time.sleep -- sleeps thread or process?,TIEMPO. SLIEP - ¿Duerme hilo o proceso?
 What's the easiest non-memory intensive way to output XML from Python?,¿Cuál es la forma intensiva de no memoria más fácil de generar XML de Python?
 How do I persist to disk a temporary file using Python?,¿Cómo persiste para disco un archivo temporal usando Python?
 Distributed python,Pitón distribuido
@@ -334,11 +334,11 @@ How to load a python module into a fresh interactive shell in Komodo?,¿Cómo ca
 How do I use Django templates without the rest of Django?,¿Cómo uso las plantillas de Django sin el resto de Django?
 What is the best solution for database connection pooling in python?,¿Cuál es la mejor solución para la agrupación de la conexión de la base de datos en Python?
 What is a metaclass in Python?,¿Qué es un metaclase en Python?
-What is the standard way to add N seconds to datetime.time in Python?,¿Cuál es la forma estándar de agregar n segundos a DateTime.Time in Python?
+What is the standard way to add N seconds to datetime.time in Python?,¿Cuál es la forma estándar de agregar n segundos a DateTime.time en Python?
 How can I analyze Python code to identify problematic areas?,¿Cómo puedo analizar el código de Python para identificar áreas problemáticas?
 Python on Windows - how to wait for multiple child processes?,Python en Windows - ¿Cómo esperar múltiples procesos infantiles?
-"Why is ""if not someobj:"" better than ""if someobj == None:"" in Python?","¿Por qué ""si no es syleobj:"" mejor que ""si someObj == ninguno:"" en Python?"
-Building Python C extension modules for Windows,Construyendo módulos de extensión de Python C para ventanas
+"Why is ""if not someobj:"" better than ""if someobj == None:"" in Python?","¿Por qué ""si no es SomeObj:"" mejor que ""si SomeObj == Ninguno:"" en Python?"
+Building Python C extension modules for Windows,Construir módulos de extensión de Python C para ventanas
 How do I read text from the (windows) clipboard from python?,¿Cómo leo el texto del portapapeles (Windows) de Python?
 Is there a zip-like method in .Net?,¿Existe un método similar a la cremallera en .NET?
 IronClad equivalent for Jython,Ironclad equivalente para Jython
@@ -362,7 +362,7 @@ Disable output buffering,Deshabilitar el almacenamiento en búfer de salida
 PLY: Token shifting problem in C parser,Capas: problema de desplazamiento de tokens en C analizador
 How to apply bold style to a specific word in Excel file using Python?,¿Cómo aplicar un estilo en negrita a una palabra específica en el archivo de Excel usando Python?
 Union and Intersect in Django,Unión e intersección en Django
-How should I best emulate and/or avoid enum's in Python?,¿Cómo debo emular y/o evitar a Enum's en Python?
+How should I best emulate and/or avoid enum's in Python?,¿Cómo debo emular mejor y/o evitar a Enum's en Python?
 "Topological sort, recursive, using generators","Clasificación topológica, recursiva, utilizando generadores"
 Delete all data for a kind in Google App Engine,Eliminar todos los datos para un tipo en Google App Engine
 Python Music Library?,Biblioteca de música de Python?
@@ -376,7 +376,7 @@ Re-ordering entries in a model using drag-and-drop,Reordenamiento de entradas en
 Dirty fields in django,Campos sucios en django
 Close a tkinter window?,¿Cerrar una ventana tkinter?
 How do I handle the window close event in Tkinter?,¿Cómo manejo el evento de cierre de la ventana en Tkinter?
-"What is a ""callable"" in Python?","¿Qué es un ""invocatoria"" en Python?"
+"What is a ""callable"" in Python?","¿Qué es un ""llamable"" en Python?"
 How do I find out the size of a canvas item in Python/Tkinter?,¿Cómo descubro el tamaño de un elemento de lienzo en Python/Tkinter?
 Is there any way to do HTTP PUT in python,¿Hay alguna forma de hacer HTTP en Python?
 "Using Python's ftplib to get a directory listing, portably","Uso de FTPLIB de Python para obtener una lista de directorio, portátil"
@@ -385,7 +385,7 @@ How do I overlap widgets with the Tkinter pack geometry manager?,¿Cómo se supe
 "Does anyone know of a widget for a desktop toolkit(GTK, Qt, WX) for displaying a map of US states?","¿Alguien sabe de un widget para un kit de herramientas de escritorio (GTK, Qt, WX) para mostrar un mapa de los estados estadounidenses?"
 List all words in a dictionary that start with,Enumere todas las palabras en un diccionario que comience con
 How do I use genshi.builder to programmatically build an HTML document?,¿Cómo uso genshi.builder para construir programáticamente un documento HTML?
-py2exe - generate single executable file,Py2exe: generar un solo archivo ejecutable
+py2exe - generate single executable file,py2exe: generar un solo archivo ejecutable
 "How would one log into a phpBB3 forum through a Python script using urllib, urllib2 and ClientCookie?","¿Cómo iniciaría sesión en un foro PHPBB3 a través de un script de Python usando Urllib, Urllib2 y ClientCookie?"
 Python - When to use file vs open,Python: cuándo usar archivo vs open
 Writing to the windows logs in Python,Escribir en los registros de Windows en Python
@@ -423,29 +423,29 @@ How can i parse a comma delimited string into a list (caveat)?,¿Cómo puedo ana
 "How do I develop and create a self-contained PyGTK application bundle for MacOS, with native-looking widgets?","¿Cómo desarrollar y crear un paquete de aplicación PyGTK autónomo para macOS, con widgets de aspecto nativo?"
 Python Regex vs PHP Regex,Python Regex vs PHP Regex
 What's the best dispatcher/callback library in Python?,¿Cuál es la mejor biblioteca de despachador/devolución de llamada en Python?
-How to start IDLE (Python editor) without using the shortcut on Windows Vista?,¿Cómo iniciar Idle (editor de Python) sin usar el acceso directo en Windows Vista?
+How to start IDLE (Python editor) without using the shortcut on Windows Vista?,¿Cómo comenzar Idle (editor de Python) sin usar el atajo en Windows Vista?
 How do you use the ellipsis slicing syntax in Python?,¿Cómo se usa la sintaxis de corte elipsis en Python?
 How can I join a list into a string (caveat)?,¿Cómo puedo unir una lista en una cadena (advertencia)?
 How do I create a non-standard type with SOAPpy?,¿Cómo creo un tipo no estándar con Soappy?
 How do I read an Excel file into Python using xlrd? Can it read newer Office formats?,¿Cómo leo un archivo de Excel en Python usando XLRD? ¿Puede leer formatos de oficina más nuevos?
 What is wrong with my snap to grid code?,¿Qué hay de malo en mi código Snap to Grid?
 How to express this Bash command in pure Python,Cómo expresar este comando Bash en Pure Python
-Is there a way to convert indentation in Python code to braces?,¿Hay alguna forma de convertir la sangría en el código de Python en aparatos ortopédicos?
+Is there a way to convert indentation in Python code to braces?,¿Hay alguna forma de convertir la sangría en el código de Python a aparatos ortopédicos?
 "Iron python, beautiful soup, win32 app","Python de hierro, hermosa sopa, aplicación Win32"
 How do I uninstall python from OSX Leopard so that I can use the MacPorts version?,¿Cómo desinstalo Python de OSX Leopard para poder usar la versión MacPorts?
 Adding code to __init__.py,Agregar código a __init__.py
 Is it good to switch from c# to python?,¿Es bueno cambiar de C# a Python?
 time length of an mp3 file,Longitud de tiempo de un archivo mp3
 Tabs versus spaces in Python programming,Pestañas versus espacios en la programación de Python
-Find matching sequences in two binary files,Encontrar secuencias coincidentes en dos archivos binarios
+Find matching sequences in two binary files,Encuentre secuencias coincidentes en dos archivos binarios
 Parse DICOM files in native Python,Poner archivos DICOM en Python nativo
 Using **kwargs with SimpleXMLRPCServer in python,Usando ** kwargs con simplexmlrpcserver en python
 Dynamically create variables inside function,Crear dinámicamente variables interiores
-Fetch a Wikipedia article with Python,Obtenga un artículo de Wikipedia con Python
+Fetch a Wikipedia article with Python,Obtener un artículo de Wikipedia con Python
 Short Integers in Python,Enteros cortos en Python
 SVG rendering in a PyGame application,Renderización de SVG en una aplicación PyGame
 Directory listing in Python,Listado de directorio en Python
-Python subprocess issue with ampersands,Problema de subproceso de Python con amperands
+Python subprocess issue with ampersands,Problema de subprocesos de Python con amperands
 Why does Python pep-8 strongly recommend spaces over tabs for indentation?,¿Por qué Python Pep-8 recomienda los espacios sobre las pestañas para la sangría?
 How can I normalize a URL in python,¿Cómo puedo normalizar una URL en Python?
 Accessing object memory address,Acceso a la dirección de memoria del objeto
@@ -459,7 +459,7 @@ How do I copy a file in python?,¿Cómo copio un archivo en Python?
 Passing apache2 digest authentication information to a wsgi script run by mod_wsgi,Pasando la información de autenticación de Digest APACHE2 a un script WSGI ejecutado por MOD_WSGI
 How to get/set logical directory path in python,Cómo obtener/establecer ruta de directorio lógico en Python
 Passing around urls between applications in the same project,Pasando las URL entre aplicaciones en el mismo proyecto
-Comparison of Python and Perl solutions to Wide Finder challenge,Comparación de las soluciones de Python y Perl al amplio desafío de Finder
+Comparison of Python and Perl solutions to Wide Finder challenge,Comparación de las soluciones de Python y Perl con amplio desafío
 What is the intended use of the DEFAULT section in config files used by ConfigParser?,¿Cuál es el uso previsto de la sección predeterminada en los archivos de configuración utilizados por configparser?
 "What is the easiest, most concise way to make selected attributes in an instance be readonly?",¿Cuál es la forma más fácil y concisa de hacer que los atributos seleccionados en una instancia sean lectores?
 Adding New Element to Text Substring,Agregar nuevo elemento a la subcadena de texto
@@ -505,9 +505,9 @@ Which is more preferable to use in Python: lambda functions or nested functions 
 How do I use django.core.urlresolvers.reverse with a function reference instead of a named URL pattern?,¿Cómo uso django.core.urlresolvers.reverse con una referencia de función en lugar de un patrón de URL con nombre?
 Display number with leading zeros,Número de visualización con ceros principales
 Python Library Path,Ruta de la biblioteca de Python
-Should you always favor xrange() over range()?,¿Debería siempre favorecer xRange () sobre el rango ()?
+Should you always favor xrange() over range()?,¿Deberías siempre favorecer xrange () sobre el rango ()?
 Reading 32bit Packed Binary Data On 64bit System,Lectura de datos binarios empaquetados de 32 bits en el sistema de 64 bits
-How can I closely achieve ?: from C++/C# in Python?,¿Cómo puedo lograr de cerca ?: de C ++/C# en Python?
+How can I closely achieve ?: from C++/C# in Python?,¿Cómo puedo lograr de cerca?: De C ++/C# en Python?
 How many bytes per element are there in a Python list (tuple)?,¿Cuántos bytes por elemento hay en una lista de Python (tuple)?
 Python: SWIG vs ctypes,Python: Swig vs Ctypes
 Python web development - with or without a framework,Desarrollo web de Python: con o sin un marco
@@ -522,18 +522,18 @@ Get Bound Event Handler in Tkinter,Get Bound Event Handler en Tkinter
 Is there something like Python's getattr() in C#?,¿Hay algo como Python's GetAttr () en C#?
 How can I read the RGB value of a given pixel in Python?,¿Cómo puedo leer el valor RGB de un píxel dado en Python?
 Dynamic radio button creation,Creación dinámica de botones de radio
-Pure Python XSLT library,Biblioteca de Python XSLT Pure Python
+Pure Python XSLT library,Biblioteca Pure Python XSLT
 Is it feasible to compile Python to machine code?,¿Es factible compilar Python en el código de la máquina?
 Can Regex be used for this particular string manipulation?,¿Se puede utilizar Regex para esta manipulación de cadenas particular?
 Vim extension (via Python)?,Vim Extensión (a través de Python)?
 How do I test a django database schema?,¿Cómo pruebo un esquema de base de datos Django?
-PyQt - QScrollBar,Pyqt - Qscrollbar
+PyQt - QScrollBar,Pyqt - qscrollbar
 listing all functions in a python module,Enumerar todas las funciones en un módulo de Python
 Adding Cookie to ZSI Posts,Agregar cookie a las publicaciones de ZSI
 Why results of map() and list comprehension are different?,¿Por qué los resultados de MAP () y la comprensión de la lista son diferentes?
 Writing a Domain Specific Language for selecting rows from a table,Escribir un lenguaje específico de dominio para seleccionar filas de una tabla
 Regular expressions but for writing in the match,Expresiones regulares pero para escribir en el partido
-Using locale.setlocale in embedded Python without breaking file parsing in C thread,Uso de lugar.setLocale en Python incrustado sin romper el análisis de archivos en el hilo C
+Using locale.setlocale in embedded Python without breaking file parsing in C thread,Uso de locale.setLocale en Python integrado sin romper el análisis de archivos en el hilo C
 Authenticating against active directory using python + ldap,Autenticación contra Active Directory usando Python + LDAP
 Looking for File Traversal Functions in Python that are Like Java's,Buscando funciones transversales de archivos en Python que sean como Java's
 How to list only top level directories in Python?,¿Cómo enumerar solo los directorios de nivel superior en Python?
@@ -563,7 +563,7 @@ I'm using Python regexes in a criminally inefficient manner,Estoy usando Python 
 "In Django, where is the best place to put short snippets of HTML-formatted data?","En Django, ¿dónde está el mejor lugar para colocar fragmentos cortos de datos formatados en HTML?"
 "Difflib.SequenceMatcher isjunk optional parameter query: how to ignore whitespaces, tabs, empty lines?","DIFFLIB.SECHENCEMATCHER ISJUNK PARAMETER OPCIONAL Consulta: ¿Cómo ignorar los espacios en blanco, pestañas, líneas vacías?"
 "How does one do the equivalent of ""import * from module"" with Python's __import__ function?","¿Cómo le hace el equivalente de ""importar * del módulo"" con la función __import__ de Python?"
-Django VMware appliance,Django VMware Appliance
+Django VMware appliance,Django vmware aparato
 Debug Pylons application through Eclipse,Aplicación de Pylons de depuración a través de Eclipse
 How do I manipulate bits in Python?,¿Cómo manipulo bits en Python?
 Character reading from file in Python,Lectura de personajes del archivo en Python
@@ -575,18 +575,18 @@ Keeping GUIs responsive during long-running tasks,Mantener las GUI respondiendo 
 Is there a way to define which fields in the model are editable in the admin app?,¿Hay alguna forma de definir qué campos en el modelo son editables en la aplicación de administración?
 Background tasks on appengine,Tareas de fondo en Appengine
 Python desktop widgets,Widgets de escritorio de Python
-BeautifulSoup's Python 3 compatibility,Beautifulsoup's Python 3 Compatibilidad
+BeautifulSoup's Python 3 compatibility,BeautifulSoup's Python 3 Compatibilidad
 What is the difference between __reduce__ and __reduce_ex__?,¿Cuál es la diferencia entre __reduce__ y __reduce_ex__?
 How do you break into the debugger from Python source code?,¿Cómo se divide en el depurador del código fuente de Python?
 Send file using POST from a Python script,Enviar archivo usando la publicación desde un script de Python
-How Does One Read Bytes from File in Python,¿Cómo se lee bytes del archivo en Python?
+How Does One Read Bytes from File in Python,¿Cómo se lee bytes del archivo en python?
 Is there any Visual Library alternative to wxPython that supports CSS/Style Sheets?,¿Hay alguna alternativa de biblioteca visual a Wxpython que admita las hojas CSS/Style?
 How do I calculate number of days betwen two dates using Python?,¿Cómo calculo el número de días entre dos fechas usando Python?
 Get other running processes window sizes in Python,Obtenga otros tamaños de ventana de procesos en ejecución en Python
 Errors with Python's mechanize module,Errores con el módulo mecanizado de Python
 Is it OK to inspect properties beginning with underscore?,¿Está bien inspeccionar las propiedades que comienzan con un bajo?
 "Looking for a regular expression including aplhanumeric + ""&"" and "";""","Buscando una expresión regular que incluya aplhanumérica + ""&"" y "";"""
-NSWindow launched from statusItem menuItem does not appear as active window,NSWindow lanzado desde StatusItem Menuitem no aparece como una ventana activa
+NSWindow launched from statusItem menuItem does not appear as active window,Nswindow lanzado desde statusitem menuitem no aparece como ventana activa
 What's the canonical way to check for type in python?,¿Cuál es la forma canónica de verificar el tipo en Python?
 Runnning a Python web server as a service in Windows,Ejecutar un servidor web de Python como servicio en Windows
 Extension functions and 'help',Funciones de extensión y 'ayuda'
@@ -608,7 +608,7 @@ Emacs and Python,Emacs y pitón
 Most pythonic way of counting matching elements in something iterable,La mayoría de la forma pitónica de contar elementos coincidentes en algo iterable
 Date change notification in a Tkinter app (win32),Notificación de cambio de fecha en una aplicación Tkinter (Win32)
 Template Lib (Engine) in Python running with Jython,Plantilla lib (motor) en Python Running con Jython
-Accurate timestamping in Python,Timestre de tiempo preciso en Python
+Accurate timestamping in Python,Maestra de tiempo precisa en Python
 Python 2.5 dictionary 2 key sort,Python 2.5 Dictionary 2 Key Sort
 What is the best way to sample/profile a PyObjC application?,¿Cuál es la mejor manera de probar/perfilar una aplicación pyobjc?
 Hiding a password in a (python) script,Ocultar una contraseña en un script (python)
@@ -634,10 +634,10 @@ Django and Python 2.6,Django y Python 2.6
 urllib2 file name,nombre de archivo urllib2
 Python - How do I pass a string into subprocess.Popen (using the stdin argument)?,Python - ¿Cómo paso una cadena a subprocesos.popen (usando el argumento Stdin)?
 Apache sockets not closing?,¿Los enchufes Apache no se cierran?
-"Can ""list_display"" in a Django ModelAdmin display attributes of ForeignKey fields?","¿Puede ""list_display"" en un modelo Django ModelAdmin mostrar los atributos de los campos extranjeros?"
+"Can ""list_display"" in a Django ModelAdmin display attributes of ForeignKey fields?","¿Puede ""list_display"" en un modeladmin de django mostrar atributos de campos de keykey?"
 WPF Alternative for python,Alternativa de WPF para Python
 How do I deploy a Python desktop application?,¿Cómo implemento una aplicación de escritorio de Python?
-Change Django Templates Based on User-Agent,Cambiar plantillas de Django basadas en agente de usuario
+Change Django Templates Based on User-Agent,Cambiar las plantillas de Django basadas en el agente de usuario
 Programmatically launching standalone Adobe flashplayer on Linux/X11,Lanzamiento programado de Adobe Flashplayer de Adobe en Linux/X11
 How would I package and sell a Django app?,¿Cómo empaquetaría y vendería una aplicación Django?
 Detecting Mouse clicks in windows using python,Detección de clics del mouse en Windows usando Python
@@ -675,13 +675,13 @@ Formatting a list of text into columns,Formatear una lista de texto en columnas
 Applying a common font scheme to multiple objects in wxPython,Aplicar un esquema de fuente común a múltiples objetos en Wxpython
 What is the best way to get all the divisors of a number?,¿Cuál es la mejor manera de obtener todos los divisores de un número?
 How do you develop against OpenID locally,¿Cómo se desarrolla contra OpenID localmente?
-Django UserProfile... without a password,Django userProfile ... sin contraseña
+Django UserProfile... without a password,Django userprofile ... sin contraseña
 How are you planning on handling the migration to Python 3?,¿Cómo planea manejar la migración a Python 3?
-What symmetric cypher to use for encrypting messages?,¿Qué cypher simétrico usar para cifrar mensajes?
+What symmetric cypher to use for encrypting messages?,¿Qué Cypher simétrico usar para cifrar mensajes?
 How do I split a multi-line string into multiple lines?,¿Cómo divido una cadena de múltiples líneas en múltiples líneas?
 Speeding Up Python,Acelerando Python
 "Parsing and generating Microsoft Office 2007 files (.docx, .xlsx, .pptx)","Analización y generación de archivos de Microsoft Office 2007 (.docx, .xlsx, .pptx)"
-Is there a way to prevent a SystemExit exception raised from sys.exit() from being caught?,¿Hay alguna manera de evitar que se atraiga una excepción de SystemExit planteada de Sys.Exit ()?
+Is there a way to prevent a SystemExit exception raised from sys.exit() from being caught?,¿Hay alguna forma de evitar que se atraiga una excepción de SystemExit planteada de Sys.Exit ()?
 python dictionary update method,Método de actualización del diccionario de Python
 Does anyone have experience with PyS60 mobile development,¿Alguien tiene experiencia con el desarrollo móvil Pys60?
 Is it possible to pass arguments into event bindings?,¿Es posible pasar argumentos a los enlaces de eventos?
@@ -710,12 +710,12 @@ Average difference between dates in Python,Diferencia promedio entre las fechas 
 Python class factory ... or?,Python Class Factory ... o?
 How to handle a broken pipe (SIGPIPE) in python?,¿Cómo manejar una tubería rota (Sigpipe) en Python?
 How do I convert a list of ascii values to a string in python?,¿Cómo convierto una lista de valores ASCII en una cadena en Python?
-"In the Django admin interface, is there a way to duplicate an item?","En la interfaz de administración de Django, ¿hay alguna manera de duplicar un elemento?"
+"In the Django admin interface, is there a way to duplicate an item?","En la interfaz de administración de Django, ¿hay alguna forma de duplicar un elemento?"
 What is the difference between Python's re.search and re.match?,¿Cuál es la diferencia entre Re.Search y Re.match de Python?
 Python style: multiple-line conditions in IFs,Estilo de Python: condiciones de múltiples líneas en IFS
 What is the problem with reduce()?,¿Cuál es el problema con Reduce ()?
 py2exe including MSVC DLLs in the .exe,py2exe incluyendo dlls msvc en el .exe
-wxPython: displaying multiple widgets in same frame,wxpython: mostrar múltiples widgets en el mismo cuadro
+wxPython: displaying multiple widgets in same frame,WXPYTHON: Mostrar múltiples widgets en el mismo cuadro
 Problem opening berkeley db in python,Problema de apertura de Berkeley DB en Python
 When to use the Python debugger,Cuándo usar el depurador de Python
 How do I turn an RSS feed back into RSS?,¿Cómo convierto una alimentación RSS en RSS?
@@ -724,7 +724,7 @@ Setup Python enviroment on windows,Configurar Python Enviroment en Windows
 How do I watch a file for changes using Python?,¿Cómo veo un archivo para los cambios usando Python?
 What do I need to import to gain access to my models?,¿Qué necesito importar para obtener acceso a mis modelos?
 Os.path : can you explain this behavior?,OS.Path: ¿Puedes explicar este comportamiento?
-How can I use UUIDs in SQLAlchemy?,¿Cómo puedo usar UUID en Sqlalchemy?
+How can I use UUIDs in SQLAlchemy?,¿Cómo puedo usar uuids en sqlalchemy?
 Is this the best way to get unique version of filename w/ Python?,¿Es esta la mejor manera de obtener la versión única del nombre de archivo con Python?
 "In Python, what is the difference between '/' and '//' when used for division?","En Python, ¿cuál es la diferencia entre '/' y '//' cuando se usa para la división?"
 Framework/Language for new web 2.0 sites (2008 and 2009),Marco/idioma para nuevos sitios Web 2.0 (2008 y 2009)
@@ -735,7 +735,7 @@ Delete Folder Contents in Python,Eliminar contenido de carpeta en Python
 Extracting unique items from a list of mappings,Extraer elementos únicos de una lista de mapeos
 What is the best way to open a file for exclusive access in Python?,¿Cuál es la mejor manera de abrir un archivo para el acceso exclusivo en Python?
 Python - How to use Conch to create a Virtual SSH server,Python: cómo usar concha para crear un servidor SSH virtual
-from X import a' versus 'import X; X.a',de x importación a 'versus' import x; X.A '
+from X import a' versus 'import X; X.a',De x importación a 'versus' import x; X.A '
 "Splitting a semicolon-separated string to a dictionary, in Python","Dividir una cuerda separada con semicolon a un diccionario, en Python"
 Configuration file with list of key-value pairs in python,Archivo de configuración con la lista de pares de valor clave en Python
 Base-2 (Binary) Representation Using Python,Representación Base-2 (binaria) usando Python
@@ -763,7 +763,7 @@ Converting XML to JSON using Python?,¿Convertir XML a JSON usando Python?
 How do you get output parameters from a stored procedure in Python?,¿Cómo se obtienen los parámetros de salida de un procedimiento almacenado en Python?
 Configuring python,Configuración de Python
 Is there a function in Python to print all the current properties and values of an object?,¿Existe una función en Python para imprimir todas las propiedades y valores actuales de un objeto?
-How do I log an exception at warning- or info-level with trace back using the python logging framework?,¿Cómo puedo registrar una excepción a nivel de advertencia o información con traza con el marco de registro de Python?
+How do I log an exception at warning- or info-level with trace back using the python logging framework?,¿Cómo registro una excepción al nivel de advertencia o información con Trace Usando el marco de registro de Python?
 Pylons with Elixir,Pylons con elixir
 In Django how do I notify a parent when a child is saved in a foreign key relationship?,"En Django, ¿cómo notificación a un padre cuando un niño se salva en una relación clave extranjera?"
 TFS Webservice Documentation,Documentación de servicio web TFS
@@ -793,7 +793,7 @@ How to ensure user submit only english text,Cómo garantizar que el usuario env�
 How to check if OS is Vista in Python?,¿Cómo verificar si el sistema operativo es Vista en Python?
 Can you list the keyword arguments a Python function receives?,¿Puede enumerar los argumentos de palabras clave que recibe una función de Python?
 How to find out whether subversion working directory is locked by svn?,¿Cómo averiguar si SVN bloquea el directorio de trabajo de subversión?
-Docstrings for data?,¿Doctraciones para datos?
+Docstrings for data?,¿Doctraciones de datos?
 Dealing with a string containing multiple character encodings,Tratar con una cadena que contiene múltiples codificaciones de caracteres
 Get File Object used by a CSV Reader/Writer Object,Obtener objeto de archivo utilizado por un objeto CSV Reader/Writer
 Can I pickle a python dictionary into a sqlite3 text field?,¿Puedo encurtir un diccionario de Python en un campo de texto SQLITE3?
@@ -811,8 +811,8 @@ urllib.urlopen works but urllib2.urlopen doesn't,urllib.urlopen funciona pero ur
 python name a file same as a lib,Python nombre un archivo igual que un lib
 which python framework to use?,¿Qué marco de Python usar?
 Creating self-contained python applications,Creación de aplicaciones de Python autónomo
-Receive socket size limits good?,¿Recibir límites de tamaño de enchufe bien?
-"How do I get python-markdown to additionally ""urlify"" links when formatting plain text?","¿Cómo puedo hacer que Python-Markdown también ""urlifique"" los enlaces al formatear el texto plano?"
+Receive socket size limits good?,Recibir límites de tamaño de enchufe bien?
+"How do I get python-markdown to additionally ""urlify"" links when formatting plain text?","¿Cómo puedo hacer que Python-Markdown se ""urlifique"" los enlaces al formatear el texto sin formato?"
 Does python support multiprocessor/multicore programming?,¿Python admite la programación multiprocesador/multinúcleo?
 How do I execute a program from python? os.system fails due to spaces in path,¿Cómo ejecuto un programa de Python? OS.System falla debido a los espacios en la ruta
 Alert Popups from service in Python,Alerta de ventanas emergentes del servicio en Python
@@ -831,16 +831,16 @@ Why do attribute references act like this with Python inheritance?,¿Por qué la
 Ruby to Python bridge,Ruby to Python Bridge
 Scrape a dynamic website,Raspe un sitio web dinámico
 Help with  event in python Entry widget,Ayuda con el evento en el widget de entrada de Python
-Python: Difference between class and instance attributes,Python: diferencia entre los atributos de clase y instancia
+Python: Difference between class and instance attributes,Python: diferencia entre los atributos de clase e instancia
 Hooking up GUI interface with asynchronous (s)ftp operation,Conexión de la interfaz GUI con operación FTP asíncrona (S)
 List of IP addresses/hostnames from local network in Python,Lista de direcciones IP/nombres de host de la red local en Python
 extracting a parenthesized Python expression from a string,Extracción de una expresión de pitón paréntesis de una cadena
 Are there any IDE's that support Python 3 syntax?,¿Hay algún IDE que admite la sintaxis de Python 3?
 Python module that implements ftps,Módulo de Python que implementa FTP
 How to enable MySQL client auto re-connect with MySQLdb?,¿Cómo habilitar la reducción automática de MySQL Client con MySQLDB?
-How to make Apache/mod_python process collect its zombies?,¿Cómo hacer que Apache/Mod_Python Process recolecte sus zombis?
+How to make Apache/mod_python process collect its zombies?,¿Cómo hacer que el proceso apache/mod_python recolecte sus zombis?
 How to read and write multiple files?,¿Cómo leer y escribir varios archivos?
-How to base64 encode a PDF file in Python,Cómo base64 codifica un archivo PDF en Python
+How to base64 encode a PDF file in Python,Cómo base64 codificar un archivo PDF en Python
 Django template with jquery: Ajax update on existing page,Plantilla de Django con jQuery: actualización de AJAX en la página existente
 Why do I receive an ImportError when running one of the CherryPy tutorials,¿Por qué recibo un importador al ejecutar uno de los tutoriales de Cherrypy?
 Can I use Python as a Bash replacement?,¿Puedo usar Python como reemplazo de Bash?
@@ -848,7 +848,7 @@ Howto do python command-line autocompletion but NOT only at the beginning of a s
 Convert hex string to int in Python,Convierta la cadena hexadecimal a int en python
 Map two lists into a dictionary in Python,Mapee dos listas en un diccionario en Python
 Advanced Python FTP - can I control how ftplib talks to a server?,Python FTP avanzado: ¿puedo controlar cómo FTPLIB habla con un servidor?
-"py3k RC-1: ""LookupError: unknown encoding: uft-8""","PY3K RC-1: ""Lookuperror: Codificación desconocida: UFT-8"""
+"py3k RC-1: ""LookupError: unknown encoding: uft-8""","PY3K RC-1: ""LookuperRor: Codificación desconocida: UFT-8"""
 Distributing a stand-alone Python web-based application to non-technical users,Distribución de una aplicación basada en la web de Python independiente para usuarios no técnicos
 I need some help with cursor event handling in python+Tkinter,Necesito ayuda con el manejo de eventos de cursor en Python+Tkinter
 Python: unsigned 32 bit bitwise arithmetic,Python: aritmética sin firmar de 32 bits bit a bit a
@@ -857,13 +857,13 @@ Create an icon in memory with win32 in python,Crea un icono en la memoria con Wi
 Python's __import__ doesn't work as expected,__Import__ de Python no funciona como se esperaba
 "How to build ""Tagging"" support using CouchDB?","¿Cómo crear soporte de ""etiquetado"" con CouchDB?"
 Python Inverse of a Matrix,Python inverso de una matriz
-arguments to cryptographic functions,argumentos a las funciones criptográficas
+arguments to cryptographic functions,Argumentos a las funciones criptográficas
 Using SQLite in a Python program,Uso de SQLite en un programa de Python
 What is an easy way to create a trivial one-off Python object?,¿Cuál es una manera fácil de crear un objeto python único trivial?
 Turning a GqlQuery result set into a python dictionary,Convertir un resultado GQLQuery establecido en un diccionario de Python
 Binary search (bisection) in Python,Búsqueda binaria (bisección) en Python
 Opening a handle to a device in Python on Windows,Abrir un mango a un dispositivo en Python en Windows
-Keyboard interruptable blocking queue in Python,Cola de bloqueo de teclado Interruptable en Python
+Keyboard interruptable blocking queue in Python,Cola de bloqueo de teclado interrumpible en Python
 Using django-rest-interface,Uso de Django-Rest-Interfaz
 "In Django, how could one use Django's update_object generic view to edit forms of inherited models?","En Django, ¿cómo podría uno usar la vista genérica update_object de Django para editar formas de modelos heredados?"
 python threadsafe object cache,Python threadsafe Object caché
@@ -922,12 +922,12 @@ What is the meaning of '(?i)password' in python regular expression?,¿Cuál es e
 cherrypy not closing the sockets,Cherrypy no cierre los enchufes
 Sorting a tuple that contains tuples,Ordenar una tupla que contiene tuplas
 How to use 'super' in Python?,¿Cómo usar 'Super' en Python?
-How do you get the text from an HTML 'datacell' using BeautifulSoup,"¿Cómo se obtiene el texto de un ""DataCell"" HTML usando BeautifulSoup?"
+How do you get the text from an HTML 'datacell' using BeautifulSoup,"¿Cómo se obtiene el texto de un ""Datacell"" HTML usando BeautifulSoup?"
 When does urllib2 actually download a file from a url?,¿Cuándo descarga Urllib2 un archivo de una URL?
 Using Variables for Class Names in Python?,¿Usando variables para nombres de clases en Python?
 Elegant structured text file parsing,Parsing de archivos de texto estructurado elegante
 How do I perform query filtering in django templates,¿Cómo realizo el filtrado de consultas en plantillas de django?
-Javascript style dot notation for dictionary keys unpythonic?,Javascript Style Dot Notation for Dictionary Keys impytonic?
+Javascript style dot notation for dictionary keys unpythonic?,¿Notación de punto de estilo JavaScript para las claves de diccionario impytonic?
 What would be a better implementation of all combinations in lexicographic order of a jagged list?,¿Cuál sería una mejor implementación de todas las combinaciones en orden lexicográfico de una lista irregular?
 Alternatives to a wizard,Alternativas a un mago
 Incoming poplib refactoring using windows python 2.3,Refactorización de poplib entrante con Windows Python 2.3
@@ -976,12 +976,12 @@ Trailing slashes in Pylons Routes,Trasas finales en rutas de pylons
 how do I implement a custom code page used by a serial device so I can convert text to it in Python?,¿Cómo implemento una página de código personalizada utilizada por un dispositivo serie para poder convertir el texto en Python?
 Environment Variables in Python on Linux,Variables de entorno en Python en Linux
 Are there any web based email clients written in python?,¿Hay algún cliente de correo electrónico basado en la web escrito en Python?
-"What is your convention to distinguish between object methods to be called by the outside, and object methods to be called by a subclass?","¿Cómo es su convención para distinguir entre los métodos de objeto para ser llamados por el exterior, y los métodos de objetos para ser llamados por una subclase?"
+"What is your convention to distinguish between object methods to be called by the outside, and object methods to be called by a subclass?","¿Cómo es su convención para distinguir entre los métodos de objetos para ser llamados por el exterior, y los métodos de objetos para ser llamados por una subclase?"
 How can I use Python for large scale development?,¿Cómo puedo usar Python para el desarrollo a gran escala?
 How do I convert any image to a 4-color paletted image using the Python Imaging Library?,¿Cómo convierto cualquier imagen en una imagen paleta de 4 colores usando la biblioteca de imágenes de Python?
 Any python libs for parsing Bind zone files?,¿Alguna Libra de Python para analizar archivos de zona de enlace?
 How to get file creation & modification date/times in Python?,¿Cómo obtener la fecha de creación y modificación de archivos/tiempos en Python?
-Is there a reason Python strings don't have a string length method?,¿Hay alguna razón por la cual las cadenas de python no tienen un método de longitud de cadena?
+Is there a reason Python strings don't have a string length method?,¿Hay alguna razón por la cual las cadenas de Python no tienen un método de longitud de cadena?
 Multiple mouse pointers?,¿Múltiples punteros del mouse?
 Any python libs for parsing apache config files?,¿Alguna Libra de Python para analizar archivos de configuración Apache?
 How do you programmatically reorder children of an ATFolder subclass?,¿Cómo se reordena programáticamente a los niños de una subclase AtFolder?
@@ -1006,7 +1006,7 @@ How can I call a DLL from a scripting language?,¿Cómo puedo llamar a una DLL d
 post_save signal on m2m field,señal post_save en el campo M2M
 Possible to integrate Google AppEngine and Google Code for continuous integration?,¿Es posible integrar el código de Google Appengine y Google para la integración continua?
 Python lazy list,Lista de perezoso de Python
-Single Table Inheritance in Django,Herencia de mesa única en Django
+Single Table Inheritance in Django,Herencia de tabla única en Django
 Python snippet to remove C and C++ comments,Fragmento de Python para eliminar los comentarios de C y C ++
 Reading collections of extended elements in an RSS feed with Universal Feed Parser,Lectura de colecciones de elementos extendidos en un alimento RSS con analizador universal
 I want a program that writes every possible combination to a different line of a text file,Quiero un programa que escriba todas las combinaciones posibles a una línea diferente de un archivo de texto
@@ -1020,11 +1020,11 @@ How to set the PYTHONPATH in Emacs?,¿Cómo establecer el Pythonpath en emacs?
 Including a dynamic image in a web page using POST?,¿Incluyendo una imagen dinámica en una página web usando POST?
 Unicode block of a character in python,Bloque unicode de un personaje en Python
 "How to copy all properties of an object to another object, in Python?","¿Cómo copiar todas las propiedades de un objeto a otro objeto, en Python?"
-What is the OCaml idiom equivalent to Python's range function?,¿Cuál es el idiota Ocaml equivalente a la función de rango de Python?
+What is the OCaml idiom equivalent to Python's range function?,¿Cuál es el modismos Ocaml equivalente a la función de rango de Python?
 How do I merge two python iterators?,¿Cómo fusiono dos iteradores de Python?
 Which Eclipse package to download for pydev?,¿Qué paquete de eclipse descargar para Pydev?
-"With Lua and Python embeddable, is there a place for Basic?","Con Lua y Python incrustable, ¿hay algún lugar para BASIC?"
-Map two lists into one single list of dictionaries,Asigna dos listas en una sola lista de diccionarios
+"With Lua and Python embeddable, is there a place for Basic?","Con Lua y Python incrustable, ¿hay un lugar para BASIC?"
+Map two lists into one single list of dictionaries,Mapee dos listas en una sola lista de diccionarios
 opengl set texture color with vertex color,OpenGL establece color de textura con color de vértice
 AJAX console window with ANSI/VT100 support?,¿Ventana de consola AJAX con soporte ANSI/VT100?
 Porting MATLAB functions to Scilab. How do I use symbolic?,Porting Matlab funciona a Scilab. ¿Cómo uso simbólico?
@@ -1040,7 +1040,7 @@ HTTP compliance testing,Prueba de cumplimiento de HTTP
 Can I call and set the Python gettext module in a library and a module using it at the same time?,¿Puedo llamar y configurar el módulo Python GetText en una biblioteca y un módulo que lo usa al mismo tiempo?
 How can I draw a bezier curve using Python's PIL?,¿Cómo puedo dibujar una curva Bezier con PIL de Python?
 How do I add tab completion to the Python shell?,¿Cómo agrego la finalización de la pestaña a Python Shell?
-How can I launch an instance of an application using Python?,¿Cómo puedo iniciar una instancia de una aplicación usando Python?
+How can I launch an instance of an application using Python?,¿Cómo puedo lanzar una instancia de una aplicación usando Python?
 Retrieving python module path,Recuperación de la ruta del módulo Python
 "Is it possible to get the value of an item contained in Django's ""changed_data"" list?","¿Es posible obtener el valor de un elemento contenido en la lista ""cambiando_data"" de Django?"
 Is there something between a normal user account and root?,¿Hay algo entre una cuenta de usuario normal y una raíz?
@@ -1053,7 +1053,7 @@ Translate SVN path to local file system path in Python,Traducir la ruta SVN a la
 Python with PIL and Libjpeg on Leopard,Python con pil y libjpeg en leopardo
 How to determine if a directory is on same partition,Cómo determinar si un directorio está en la misma partición
 OS X: Determine Trash location for a given path,OS X: Determine la ubicación de la basura para una ruta determinada
-How can I add post-install scripts to easy_install / setuptools / distutils?,¿Cómo puedo agregar scripts posteriores a la instalación a Easy_install / Setuppools / Distutils?
+How can I add post-install scripts to easy_install / setuptools / distutils?,¿Cómo puedo agregar scripts posteriores a la instalación a easy_install / setuppools / distutils?
 Lua as a general-purpose scripting language?,¿Lua como un lenguaje de secuencias de comandos de uso general?
 How can I optimize this Google App Engine code?,¿Cómo puedo optimizar este código de motor de Google App?
 Python Regex - How to Get Positions of Matches,Python Regex - Cómo obtener posiciones de partidos
@@ -1062,10 +1062,10 @@ Truncate a string without ending in the middle of a word,Truncar una cuerda sin 
 What do you like about Django?,¿Qué te gusta de Django?
 How to specify relations using SQLAlchemy declarative syntax?,¿Cómo especificar las relaciones con la sintaxis declarativa de Sqlalchemy?
 Is it possible to communicate with a sub subprocess with subprocess.Popen?,¿Es posible comunicarse con un subproceso con subprocesos.
-How to get a function name as a string in Python?,¿Cómo obtener un nombre de función como cadena en Python?
+How to get a function name as a string in Python?,¿Cómo obtener un nombre de función como una cadena en Python?
 script languages on windows mobile - something similar to python @ nokia s60,Lenguajes de script en Windows Mobile: algo similar a Python @ Nokia S60
 What is the best way to serve static web pages from within a Django application?,¿Cuál es la mejor manera de servir páginas web estáticas desde una aplicación Django?
-Possible Google Riddle?,¿Posible Google Riddle?
+Possible Google Riddle?,¿Posible Riddle de Google?
 Bizarre python ImportError,Importador de pitón extraño
 How can I use a DLL file from Python?,¿Cómo puedo usar un archivo DLL de Python?
 Why won't Django 1.0 admin application work?,¿Por qué no funcionará la aplicación de administración Django 1.0?
@@ -1081,7 +1081,7 @@ Converting datetime to POSIX time,Convertir la fecha y hora en el tiempo de Posi
 How do I keep Python print from adding newlines or spaces?,¿Cómo evito que la impresión de Python agregue nuevas líneas o espacios?
 How to override HTTP request verb in GAE,Cómo anular el verbo de solicitud HTTP en GAE
 Storage transactions in Redland's Python bindings?,¿Transacciones de almacenamiento en las enlaces de Python de Redland?
-Python re.findall with groupdicts,Python re.findall con grupos.
+Python re.findall with groupdicts,Python re.findall con Groupdicts
 Determine if a named parameter was passed,Determinar si se aprobó un parámetro con nombre
 Browser-based application or stand-alone GUI app?,¿Aplicación basada en navegador o aplicación GUI independiente?
 How to implement Google Suggest in your own web application (e.g. using Python),"Cómo implementar Google Sugerir en su propia aplicación web (por ejemplo, usando Python)"
@@ -1116,14 +1116,14 @@ Play audio with Python,Reproducir audio con Python
 How to build Python C extension modules with autotools,Cómo construir módulos de extensión de Python C con AutoTools
 How do I protect Python code?,¿Cómo protejo el código Python?
 Converting a List of Tuples into a Dict in Python,Convertir una lista de tuplas en un dict en python
-How do I safely decode a degrees symbol in a wxPython app?,¿Cómo decano de forma segura un símbolo de grados en una aplicación wxpython?
+How do I safely decode a degrees symbol in a wxPython app?,¿Cómo decano de forma segura un símbolo de grados en una aplicación WXPython?
 making a programme run indefinitely in python,Hacer un programa ejecutado indefinidamente en Python
 Is it possible to change the Environment of a parent process in python?,¿Es posible cambiar el entorno de un proceso principal en Python?
 Creating a python win32 service,Creando un servicio Python Win32
 Merging/adding lists in Python,Fusionar/agregar listas en Python
 "We have a graphical designer, now they want a text based designer. Suggestions?","Tenemos un diseñador gráfico, ahora quieren un diseñador basado en texto. ¿Sugerencias?"
 "What is a Ruby equivalent for Python's ""zip"" builtin?","¿Qué es un equivalente de Ruby para el ""zip"" de Python Builtin?"
-How can I ask for root password but perform the action at a later time?,¿Cómo puedo pedir una contraseña de root pero realizar la acción en un momento posterior?
+How can I ask for root password but perform the action at a later time?,¿Cómo puedo pedir contraseña de root pero realizar la acción en un momento posterior?
 launching vs2008 build from python,Lanzamiento de VS2008 Build desde Python
 Access Ruby objects with Python via XML-RPC?,¿Acceder a objetos Ruby con Python a través de XML-RPC?
 How to fetch more than 1000?,¿Cómo buscar más de 1000?
@@ -1147,7 +1147,7 @@ apache user can not write to .python-eggs,El usuario de Apache no puede escribir
 Install MySQLdb (for python) as non-compressed egg,Instale mysqldb (para python) como huevo no comprimido
 Multiple database support in django,Soporte de bases de datos múltiples en Django
 Getting key with maximum value in dictionary?,¿Obtener la clave con el máximo valor en el diccionario?
-How to stop BaseHTTPServer.serve_forever() in a BaseHTTPRequestHandler subclass?,¿Cómo detener basehttpserver.serve_forever () en una subclase BaseHTTPREQUESTHANDLER?
+How to stop BaseHTTPServer.serve_forever() in a BaseHTTPRequestHandler subclass?,¿Cómo detener la basehttpserver.serve_forever () en una subclase BaseHTTPRequestHandler?
 Replacing multiple occurrences in nested arrays,Reemplazo de múltiples ocurrencias en matrices anidadas
 How can you emulate a mailing list in Django?,¿Cómo puedes emular una lista de correo en Django?
 Is there a Python library function which attempts to guess the character-encoding of some bytes?,¿Existe una función de biblioteca de Python que intente adivinar la codificación de carácter de algunos bytes?
@@ -1203,7 +1203,7 @@ Syntax error whenever I put Python code inside a Django template,Error de sintax
 Can you achieve a case insensitive 'unique' constraint in Sqlite3 (with Django)?,¿Puede lograr una restricción 'única' insensible en un caso en SQLITE3 (con Django)?
 How to import a python file in python script more than once,Cómo importar un archivo de Python en el script de Python más de una vez
 Exposing a C++ API to Python,Exponer una API C ++ a Python
-How to expose std::vector as a Python list using SWIG?,¿Cómo exponer STD :: Vector como una lista de Python usando SWIG?
+How to expose std::vector as a Python list using SWIG?,¿Cómo exponer std :: vector como una lista de python usando trago?
 Is there a good Python GUI shell?,¿Hay un buen caparazón de gui de pitón?
 Is there a more Pythonic way to merge two HTML header rows with colspans?,¿Existe una forma más pitónica de fusionar dos filas de encabezado HTML con colspans?
 Python Argument Binders,Python argumentos de argumento
@@ -1220,7 +1220,7 @@ Set permissions on a compressed file in python,Establecer permisos en un archivo
 email body from a parsed email object in jython,Cuerpo de correo electrónico de un objeto de correo electrónico analizado en Jython
 Python - sort a list of nested lists,Python: ordene una lista de listas anidadas
 Python Linked List,Lista vinculada de Python
-"When is ""self"" required?","¿Cuándo se requiere ""uno mismo""?"
+"When is ""self"" required?","¿Cuándo se requiere ""yo""?"
 Escaping regex string in Python,Escapar de la cadena regex en Python
 Calculate poisson probability percentage,Calcular el porcentaje de probabilidad de Poisson
 Controlling the mouse from Python in OS X,Controlar el mouse desde Python en OS X
@@ -1255,7 +1255,7 @@ Django multiselect checkboxes,Casillas de verificación multiselectas de Django
 What's the best way to transfer data from python to another application in windows?,¿Cuál es la mejor manera de transferir datos de Python a otra aplicación en Windows?
 Any AOP support library for Python?,¿Alguna biblioteca de soporte de AOP para Python?
 Python program start,Inicio del programa Python
-Tix documentation for Python,Documentación de Tix para Python
+Tix documentation for Python,Documentación Tix para Python
 Parsing C++ preprocessor #if statements,Analización del preprocesador C ++ declaraciones #IF
 Python's ConfigParser unique keys per section,Llaves únicas de ConfigParser de Python por sección
 Dictonaries and Lambda inside a class?,¿Dictonarios y Lambda dentro de una clase?
@@ -1267,7 +1267,7 @@ Can I use named groups in a Perl regex to get the results in a hash?,¿Puedo usa
 receiving data over a python socket,Recibir datos sobre un zócalo de Python
 Google AppEngine App Version,Versión de la aplicación de Google Appengine
 Why does Excel macro work in Excel but not when called from Python?,¿Por qué Excel funciona en Excel pero no cuando se llama desde Python?
-py2exe setup.py with icons,py2exe setup.py con íconos
+py2exe setup.py with icons,py2exe setup.py con iconos
 How do I use my icons when compiling my python program with py2exe?,¿Cómo uso mis íconos al compilar mi programa Python con py2exe?
 How can I improve this number2words script,¿Cómo puedo mejorar este script number2words?
 What's the simplest way to access mssql with python or ironpython?,¿Cuál es la forma más sencilla de acceder a MSSQL con Python o Ironpython?
@@ -1288,7 +1288,7 @@ excluding characters in \S regex match,excluyendo personajes en \ s regex Match
 "wxPython, Set value of StaticText()","wxpython, establecer valor de statictext ()"
 Python object deleting itself,Objeto Python que se elimina a sí mismo
 Python help - Parsing Packet Logs,Ayuda de Python - registros de paquetes de análisis
-How do I fix wrongly nested / unclosed HTML tags?,¿Cómo reparo las etiquetas HTML innombradas / no cerradas?
+How do I fix wrongly nested / unclosed HTML tags?,¿Cómo arreglo las etiquetas HTML inestables / no cerradas?
 "Python for Autohotkey style key-combination sniffing, automation?","Python para autohotkey Key-Combination Onffing, Automation?"
 unpacking an array of arguments in php,Desempacar una variedad de argumentos en PHP
 How do I find userid by login (Python under *NIX),¿Cómo encuentro a usuario de inicio de sesión (Python Under *nix)
@@ -1326,13 +1326,13 @@ Form (or Formset?) to handle multiple table rows in Django,Forma (¿o FormSet?) 
 Python xml.dom.minidom.parse() function ignores DTDs,Python xml.dom.minidom.parse () La función ignora los dtds
 Python Distutils,Python Distutils
 How can I get my python (version 2.5) script to run a jar file inside a folder instead of from command line?,¿Cómo puedo hacer que mi script Python (versión 2.5) ejecute un archivo jar dentro de una carpeta en lugar de desde la línea de comandos?
-How do I change directory back to my original working directory with Python?,¿Cómo cambio el directorio de regreso a mi directorio de trabajo original con Python?
+How do I change directory back to my original working directory with Python?,¿Cómo cambio el directorio a mi directorio de trabajo original con Python?
 Validating with an XML schema in Python,Validación con un esquema XML en Python
 Calling Java (or python or perl) from a PHP script,Llamar a Java (o Python o Perl) desde un script de PHP
 Is it possible to bind an event against a menu instead of a menu item in wxPython?,¿Es posible vincular un evento contra un menú en lugar de un elemento de menú en WXPYTHON?
 Why is fuse not using the class supplied in file_class,¿Por qué el fusible no usa la clase suministrada en file_class?
-How to unquote a urlencoded unicode string in python?,¿Cómo desbloquear una cadena unicode de URLCODEDE en Python?
-Python - Backslash Quoting in String Literals,Python - cita con barra inalcanzada en literales de cuerdas
+How to unquote a urlencoded unicode string in python?,¿Cómo sin cesar una cadena Unicode de URLCODEDE en Python?
+Python - Backslash Quoting in String Literals,Python - cita con barra invernadera en literales de cadena
 Dynamic module import in Python,Importación de módulos dinámicos en Python
 "loadComponentFromURL falls over and dies, howto do CPR?","LoadComponentFromurl se cae y muere, ¿cómo hacer la RCP?"
 Which language is easiest and fastest to work with XML content?,¿Qué idioma es más fácil y rápido para trabajar con contenido XML?
@@ -1345,14 +1345,14 @@ Use only some parts of Django?,¿Usar solo algunas partes de Django?
 Running a Django site under mod_wsgi,Ejecutando un sitio Django en Mod_wsgi
 scons : src and include dirs,Scons: SRC e incluye directs
 How do I install a Python extension module using distutils?,¿Cómo instalo un módulo de extensión de Python usando Distutils?
-Best Django 'CMS' component for integration into existing site,Mejor componente de Django 'CMS' para la integración en el sitio existente
+Best Django 'CMS' component for integration into existing site,El mejor componente de Django 'CMS' para la integración en el sitio existente
 How do I remove/delete a folder that is not empty with Python?,¿Cómo elimino/elimino una carpeta que no está vacía con Python?
 Is there a better StringCollection editor for use in PropertyGrids?,¿Existe un mejor editor StringCollection para su uso en PropertyGrids?
 Newbie Python Question about tuples,Newbie Python Pregunta sobre tuplas
 (Python) socket.gaierror on every addres...except http://www.reddit.com?,(Python) Socket.Gaierror en cada Addres ... excepto http://www.reddit.com?
 Emacs 23 and iPython,Emacs 23 e ipython
 Data Modelling Advice for Blog Tagging system on Google App Engine,Consejo de modelado de datos para el sistema de etiquetado de blog en Google App Engine
-Twisted FTPFileListProtocol and file names with spaces,FtpFilelistProtocol y nombres de archivo retorcidos con espacios
+Twisted FTPFileListProtocol and file names with spaces,Twisted ftpfilelistprotocol y nombres de archivo con espacios
 Find all nodes from an XML using cElementTree,Encuentre todos los nodos de un XML usando CelementTree
 What's the best way to find the inverse of datetime.isocalendar()?,¿Cuál es la mejor manera de encontrar el inverso de DateTime.isocalendar ()?
 Getting TRAC to run on IIS7,Conseguir que Trac corra en IIS7
@@ -1364,7 +1364,7 @@ Correct way to detect sequence parameter?,¿Forma correcta de detectar el parám
 Python printing the word,Python imprimiendo la palabra
 Appropriate location for my application's cache on Windows,Ubicación apropiada para el caché de mi aplicación en Windows
 "In Python, how can you get the name of a member function's class?","En Python, ¿cómo se puede obtener el nombre de la clase de una función de miembro?"
-Python decorator makes function forget that it belongs to a class,El decorador de Python hace funciones olvidar que pertenece a una clase
+Python decorator makes function forget that it belongs to a class,Python Decorator funciona a la función Olvidar que pertenece a una clase
 """is"" operator behaves unexpectedly with integers","El operador ""es"" se comporta inesperadamente con enteros"
 How do I randomly select an item from a list using Python?,¿Cómo selecciono aleatoriamente un elemento de una lista usando Python?
 How can I get a list of the running applications with GTK?,¿Cómo puedo obtener una lista de las aplicaciones en ejecución con GTK?
@@ -1389,7 +1389,7 @@ How do you compile wxPython under cygwin?,¿Cómo se compilan wxpython bajo cygw
 Adding a dimension to every element of a numpy.array,Agregar una dimensión a cada elemento de un numpy.Array
 "Python Input/Output, files","Entrada/salida de Python, archivos"
 "In Django, how does one filter a QuerySet with dynamic field lookups?","En Django, ¿cómo se filtra un Queryset con búsqueda de campo dinámico?"
-Python library to modify MP3 audio without transcoding,Biblioteca de Python para modificar el audio MP3 sin transcodificar
+Python library to modify MP3 audio without transcoding,Biblioteca de Python para modificar el audio MP3 sin transcodear
 using rstrip on form.cleaned_data[i] in Django,Usando rstrip en form.cleaned_data [i] en django
 Python GTK MVC,Python GTK MVC
 Any DAL/ORM on GAE?,¿Algún Dal/ORM en GAE?
@@ -1405,7 +1405,7 @@ Parsing GPS receiver output via regex in Python,Analización de la salida del re
 Python - Create a list with initial capacity,Python: cree una lista con capacidad inicial
 How do I not raise a Python exception when converting an integer-as-string to an int,¿Cómo no planteo una excepción de Python al convertir un entero como una cuerda a un int
 Effective Keyboard Input Handling,Manejo de entrada de teclado efectivo
-Fetching attachments from gmail via either python or php,Obtener archivos adjuntos de Gmail a través de Python o PHP
+Fetching attachments from gmail via either python or php,Obteniendo archivos adjuntos de Gmail a través de Python o PHP
 How do you split a list into evenly sized chunks?,¿Cómo se divide una lista en trozos de tamaño uniforme?
 Python 2.6 + JCC + Pylucene issue,Problema de python 2.6 + jcc + piluceno
 No Module named django.core,Ningún módulo llamado Django.core
@@ -1460,7 +1460,7 @@ How to get the name of an open file?,¿Cómo obtener el nombre de un archivo abi
 Eclipse (pydev): Is it possible to assign a shortcut to send selection to the python console?,Eclipse (Pydev): ¿Es posible asignar un atajo para enviar la selección a la consola Python?
 Python list slice syntax used for no obvious reason,Python List Slice Sintaxis utilizada sin razón obvia
 How to access previous/next element while for looping?,¿Cómo acceder al elemento anterior/siguiente durante el bucle?
-Foreign key from one app into another in Django,Clave extranjera de una aplicación a otra en Django
+Foreign key from one app into another in Django,Clave externa de una aplicación a otra en Django
 How to find out if there is data to be read from stdin on Windows in Python?,¿Cómo averiguar si hay datos que se leen desde Stdin en Windows en Python?
 How to analyse .exe parameters inside the program?,¿Cómo analizar los parámetros .exe dentro del programa?
 Is there any way to kill a Thread in Python?,¿Hay alguna forma de matar un hilo en Python?
@@ -1480,8 +1480,8 @@ Something similar to PHP's SimpleXML in Python?,¿Algo similar a PHP's SimplexML
 Running unit tests on nested functions,Ejecución de pruebas unitarias en funciones anidadas
 using curses with raw_input in python,Usando maldiciones con RAW_INPUT en Python
 Which is faster in Python: x**.5 or math.sqrt(x)?,¿Qué es más rápido en Python: X **. 5 o Math.Sqrt (x)?
-Attribute BOLD doesn't seem to work in my curses,El atributo en negrita no parece funcionar en mis maldiciones
-Multiple Django Admin Sites on one Apache... When I log into one I get logged out of the other,"Múltiples sitios de administración de django en un apache ... Cuando inicio sesión en uno, me registren del otro"
+Attribute BOLD doesn't seem to work in my curses,El atributo audaz no parece funcionar en mis maldiciones
+Multiple Django Admin Sites on one Apache... When I log into one I get logged out of the other,"Múltiples sitios de administración de Django en un apache ... Cuando inicio sesión en uno, me registren del otro"
 "in python, is there a one line pythonic way to get a list of keys from a dictionary in sorted order?","En Python, ¿hay una forma pitónica de una línea para obtener una lista de claves de un diccionario en orden ordenado?"
 Memory Efficient Alternatives to Python Dictionaries,Alternativas eficientes de memoria a los diccionarios de Python
 Why is the Python readline module not available on OS X?,¿Por qué el módulo Python Readline no está disponible en OS X?
@@ -1542,7 +1542,7 @@ Django FormWizard and Admin application,Django Formwizard y aplicación administ
 How to implement a minimal server for AJAX in Python?,¿Cómo implementar un servidor mínimo para AJAX en Python?
 Python optparse metavar,Python OptParse Metavar
 Python: item for item until stopterm in item?,Python: ¿Artículo para el artículo hasta el stopter en el artículo?
-How to get a row-by-row MySQL ResultSet in python,Cómo obtener un resultado mysql de fila por fila en Python
+How to get a row-by-row MySQL ResultSet in python,Cómo obtener un resultado de mysql de fila por fila en python
 Dynamic Keyword Arguments in Python?,¿Argumentos dinámicos de palabras clave en Python?
 "Python, Popen and select - waiting for a process to terminate or a timeout","Python, Popen y Select: esperando que termine un proceso o un tiempo de espera"
 Python subprocess.call() fails when using pythonw.exe,Python subprocess.call () falla cuando se usa pythonw.exe
@@ -1554,13 +1554,13 @@ python ImportError No module named,Python ImporterRor No se nombra módulo
 Nicest way to pad zeroes to string,La mejor forma de algar con ceros a la cadena
 How do you unzip very large files in python?,¿Cómo se descompone archivos muy grandes en Python?
 Writing a compiler for a DSL in python,Escribir un compilador para un DSL en Python
-Problems raising a ValidationError on a Django Form,Problemas para plantear un ValidationError en forma de Django
+Problems raising a ValidationError on a Django Form,Problemas para plantear un ValidationError en un formulario Django
 "End-line characters from lines read from text file, using Python","Caracteres de línea final de líneas leídos del archivo de texto, usando Python"
-How do I strptime from a pattern like this?,¿Cómo me renovo desde un patrón como este?
+How do I strptime from a pattern like this?,¿Cómo me reto a un patrón como este?
 Proxy objects in IronPython,Objetos proxy en Ironpython
 IronPython For Unit Testing over C#,Ironpython para pruebas unitarias sobre C#
 Is rewriting a PHP app into Python a productive step?,¿Reescribir una aplicación PHP en Python es un paso productivo?
-Suppressing Output of Paramiko SSHClient Class,Suprimiendo la salida de la clase Paramiko sshclient
+Suppressing Output of Paramiko SSHClient Class,Suprimir la salida de la clase Paramiko sshclient
 How can I reboot a Windows XP64 Machine in a Python Script?,¿Cómo puedo reiniciar una máquina Windows XP64 en un script de Python?
 Can I install Python 3.x and 2.x on the same computer?,¿Puedo instalar Python 3.x y 2.x en la misma computadora?
 Python Decorators run before function it is decorating is called?,"Los decoradores de Python corren antes de la función, ¿se llama la decoración?"
@@ -1581,11 +1581,11 @@ What is the most efficient way of extracting information from a large number of 
 Having problem importing the PIL image library,Tener problemas para importar la biblioteca de imágenes PIL
 Looking for input in model design for Django Schools,Buscando información en el diseño del modelo para las escuelas Django
 "Django Admin's ""view on site"" points to example.com instead of my domain","La ""vista en el sitio"" del administrador de Django apunta a Ejemplo.com en lugar de mi dominio"
-Django MTMField: limit_choices_to = other_ForeignKeyField_on_same_model?,Django Mtmfield: Limit_Choices_TO = OTRO_FEREIGNKEYFIELD_ON_SAME_MODEL?
+Django MTMField: limit_choices_to = other_ForeignKeyField_on_same_model?,Django Mtmfield: Limit_Choices_TO = Other_ForeignKeyfield_on_same_model?
 "Is this idiom pythonic? (someBool and ""True Result"" or ""False Result"")","¿Es este idioma pitónico? (SomeBool y ""verdadero resultado"" o ""resultado falso"")"
-Refactoring python module configuration to avoid relative imports,Refactorizar la configuración del módulo Python para evitar importaciones relativas
+Refactoring python module configuration to avoid relative imports,Refactorizar la configuración del módulo Python para evitar las importaciones relativas
 "Python - No handlers could be found for logger ""OpenGL.error""","Python - No se pudieron encontrar manejadores para el Logger ""OpenGl.error"""
-Postgres - how to return rows with 0 count for missing data?,Postgres - ¿Cómo devolver las filas con 0 recuento para datos faltantes?
+Postgres - how to return rows with 0 count for missing data?,Postgres: ¿cómo devolver las filas con 0 recuento para datos faltantes?
 Read file object as string in python,Lea el objeto de archivo como cadena en Python
 Python regex,Python Regex
 Installation problems with django-tagging,Problemas de instalación con etiqueta de django
@@ -1599,9 +1599,9 @@ How do I concisely implement multiple similar unit tests in the Python unittest 
 Can I use Python to intercept global keystrokes in KDE?,¿Puedo usar Python para interceptar las teclas globales en KDE?
 Emitting headers from a tiny Python web-framework,Emitiendo encabezados de un pequeño trabajo web de Python
 Rounding float to the nearest factor?,Redondeando flotar al factor más cercano?
-How do I get nose to discover dynamically-generated testcases?,¿Cómo consigo que la nariz descubra las concursos de prueba generadas dinámicamente?
+How do I get nose to discover dynamically-generated testcases?,¿Cómo consigo que la nariz descubra las casas de prueba generadas por dinámica?
 mod_python.publisher always gives content type 'text/plain',mod_python.publisher siempre proporciona el tipo de contenido 'Texto/Plain'
-Gauss-Legendre Algorithm in python,Algoritmo Gauss-Legendre en Python
+Gauss-Legendre Algorithm in python,Algoritmo de Gauss-Legendre en Python
 AKS Primes algorithm in Python,Algoritmo de primos AKS en Python
 How to test django caching?,¿Cómo probar el almacenamiento en caché de Django?
 What could justify the complexity of Plone?,¿Qué podría justificar la complejidad de Plone?
@@ -1621,7 +1621,7 @@ Determine record in multi record html form,Determinar el registro en forma de HT
 How do I get data from stdin using os.system(),¿Cómo obtengo datos de stdin usando os.system ()
 "How do I mock an IMAP server in Python, despite extreme laziness?","¿Cómo me burlo de un servidor IMAP en Python, a pesar de la extrema pereza?"
 Python method arguments with spaces,Argumentos del método de Python con espacios
-destroying a Toplevel tk window in python,Destruyendo una ventana TK Toplevel en Python
+destroying a Toplevel tk window in python,Destruyendo una ventana TK de Toplevel en Python
 Python imaplib Gmail authenticate failure,Python imaplib gmail autenticar falla
 Most pythonic form for mapping a series of statements?,¿La mayoría de la forma pitónica para mapear una serie de declaraciones?
 How to adding middleware to Appengine's webapp framework?,¿Cómo agregar middleware al marco WebApp de Appengine?
@@ -1692,14 +1692,14 @@ Threaded code on mod_python,Código enhebrado en mod_python
 "Which Eclipse distribution is good for web development using Python, PHP, or Perl?","¿Qué distribución de eclipse es buena para el desarrollo web utilizando Python, PHP o Perl?"
 "In Python, how do I iterate over a dictionary in sorted order?","En Python, ¿cómo itero sobre un diccionario en orden ordenado?"
 How to get item's position in a list?,¿Cómo obtener la posición del elemento en una lista?
-How do I use my standard python path when running python scripts from xcode macros,¿Cómo uso mi ruta estándar de Python al ejecutar scripts de python desde xcode macros
+How do I use my standard python path when running python scripts from xcode macros,¿Cómo uso mi ruta estándar de Python al ejecutar scripts de python de xcode macros
 generator comprehension,comprensión del generador
 Detect windows logout in Python,Detectar el inicio de sesión de Windows en Python
 Can you change a field label in the Django Admin application?,¿Puede cambiar una etiqueta de campo en la aplicación administradora de Django?
 Cross platform keylogger,Keylogger de plataforma cruzada
 run a function in another function in N times,ejecutar una función en otra función en n tiempos
 How to truncate matrix using NumPy (Python),Cómo truncar matriz usando numpy (python)
-best way to print data in columnar format?,¿La mejor manera de imprimir datos en formato columnar?
+best way to print data in columnar format?,¿La mejor forma de imprimir datos en formato columnar?
 Tracking redirects and cookies with Python,Seguimiento de redireccionamientos y galletas con Python
 how to browse to a external url from turbogears/cherrypy application?,¿Cómo navegar a una URL externa de la aplicación TurboGears/Cherrypy?
 What is the pythonic way to avoid default parameters that are empty lists?,¿Cuál es la forma pitónica de evitar parámetros predeterminados que son listas vacías?
@@ -1707,10 +1707,10 @@ How to limit execution time of a function call in Python,Cómo limitar el tiempo
 Bitwise subtraction in Python,Resta en pitón
 How to organize python test in a way that I can run all tests in a single command?,¿Cómo organizar la prueba de Python de una manera que pueda ejecutar todas las pruebas en un solo comando?
 How to localize Content of a Django application,Cómo localizar el contenido de una aplicación Django
-Deleting erroneous ReferenceProperty properties in AppEngine,Eliminar las propiedades erróneas de referencia de la propiedad en Appengine
-No print output from child multiprocessing.Process unless the program crashes,No hay salida de impresión del multiprocesamiento infantil. Proceso a menos que el programa se bloquee
+Deleting erroneous ReferenceProperty properties in AppEngine,Eliminar las propiedades de referencia errónea de la propiedad en Appengine
+No print output from child multiprocessing.Process unless the program crashes,Sin salida de impresión del multiprocesamiento infantil. Procesos a menos que el programa se bloquee
 Listing the processes running on one's computer in Python,Enumerar los procesos que se ejecutan en la computadora en Python
-Is there a Python equivalent to `perl -pi -e`?,¿Existe una pitón equivalente a `perl -pi -e`?
+Is there a Python equivalent to `perl -pi -e`?,¿Hay una pitón equivalente a `perl -pi -e`?
 Splitting a string into words and punctuation,Dividir una cuerda en palabras y puntuación
 Setting up a foreign key to an abstract base class with Django,Configurar una clave extranjera para una clase base abstracta con Django
 How much input validation should I be doing on my python functions/methods?,¿Cuánta validación de entrada debo hacer en mis funciones/métodos de Python?
@@ -1721,14 +1721,14 @@ How can I reorder an mbox file chronologically?,¿Cómo puedo reordenar un archi
 Making a virtual package available via sys.modules,Hacer un paquete virtual disponible a través de SYS.Modules
 How can I stop a While loop?,¿Cómo puedo detener un bucle de tiempo?
 Questions about Setuptools and alternatives,Preguntas sobre setuptools y alternativas
-Python UnicodeDecodeError - Am I misunderstanding encode?,Python UnicodedecodeRor - ¿Entenden mal?
+Python UnicodeDecodeError - Am I misunderstanding encode?,Python UnicodeDecodeError - ¿Entenden mal?
 Passing a Python array to a C++ vector using Swig,Pasar una matriz de Python a un vector C ++ usando Swig
 What is the best way to serialize a ModelForm object in Django?,¿Cuál es la mejor manera de serializar un objeto ModeflaM en Django?
 using existing rrule to generate a further set of occurrences,Uso de RRULE existente para generar un conjunto adicional de ocurrencias
 Is there anyone who has managed to compile mod_wsgi for apache on Mac OS X Leopard?,¿Hay alguien que haya logrado compilar MOD_WSGI para Apache en Mac OS X Leopard?
 Is there an OpenSource BASIC interpreter in Ruby/Python?,¿Hay un intérprete básico de OpenSource en Ruby/Python?
 Python: os.environ.get('SSH_ORIGINAL_COMMAND') returns None,Python: os.environ.get ('ssh_original_command') no devuelve ninguno
-How to discover the type of the NAT a given interface is behind,Cómo descubrir el tipo de nat que una interfaz dada está detrás
+How to discover the type of the NAT a given interface is behind,Cómo descubrir el tipo de NAT una interfaz dada está detrás
 IPv6 decoder for pcapy/impacket,Decodificador de IPv6 para pcapy/mimpacket
 Difference between dict.clear() and assigning {} in Python,Diferencia entre dict.clear () y asignando {} en Python
 command-line world clock?,¿Reloj mundial de línea de comandos?
@@ -1747,7 +1747,7 @@ Difference between abstract class and interface in Python,Diferencia entre la cl
 UTF in Python Regex,UTF en Python Regex
 Set timeout for xmlrpclib.ServerProxy,Establezca el tiempo de espera para xmlrpclib.ServerProxy
 Protecting online static content,Protección de contenido estático en línea
-What is the object oriented programming computing overhead cost?,¿Cuál es el costo gastos generales de la computación de programación orientada a objetos?
+What is the object oriented programming computing overhead cost?,¿Cuál es el costo de la computación de programación orientada a objetos?
 How do I connect to a MySQL Database in Python?,¿Cómo me conecto a una base de datos MySQL en Python?
 Finding the Current Active Window in Mac OS X using Python,Encontrar la ventana activa actual en Mac OS X usando Python
 List all the classes that currently exist,Enumere todas las clases que existen actualmente
@@ -1755,7 +1755,7 @@ XPath in XmlStream.addObserver doesn't work the way it should,Xpath en xmlstream
 Python regex for MD5 hash,Python Regex para el hash MD5
 Close an easygui Python script with the standard 'close' button,Cierre un script EasyGui Python con el botón Estándar 'Cerrar'
 How do I get a Cron like scheduler in Python?,¿Cómo consigo un cron como programador en Python?
-"How do I get the UTC time of ""midnight"" for a given timezone?","¿Cómo obtengo la hora UTC de ""Midnight"" para una zona horaria dada?"
+"How do I get the UTC time of ""midnight"" for a given timezone?","¿Cómo obtengo la hora UTC de ""Medianoche"" para una zona horaria?"
 "Secure, sandboxable user exposed programming language / environment?",¿Lenguaje / entorno de programación expuesto de usuario seguro y sandboxable?
 split string on a number of different characters,Split String en varios caracteres diferentes
 Running interactive commands in Paramiko,Ejecutando comandos interactivos en Paramiko
@@ -1769,7 +1769,7 @@ Should I use get_/set_ prefixes in Python method names?,¿Debo usar los prefijos
 How do you test a file.read() error in Python?,¿Cómo se prueba un error File.read () en Python?
 How to send clip names using LiveAPI (of Ableton Live),Cómo enviar nombres de clip usando LiveApi (de Ableton Live)
 How do I get the time a file was last modified in Python?,¿Cómo consigo el tiempo que se modificó un archivo por última vez en Python?
-Non-blocking read on a subprocess.PIPE in python,No bloqueo lea en un subprocesado. Tipe en Python
+Non-blocking read on a subprocess.PIPE in python,No bloqueo lea en un subprocesos. Tipe en Python
 Prevent ftplib from Downloading a File in Progress?,¿Evitar que FTPLIB descargue un archivo en progreso?
 How do I create a wx.Image object from in-memory data?,¿Cómo creo un objeto WX.Image a partir de datos en memoria?
 How do you override vim options via comments in a python source code file?,¿Cómo se anula las opciones VIM a través de comentarios en un archivo de código fuente de Python?
@@ -1777,7 +1777,7 @@ Programmatic mail-merge style data injection into existing Excel spreadsheets?,�
 String concatenation vs. string substitution in Python,Concatenación de cadena versus sustitución de cadenas en Python
 IntelliJ Python plug-in,Complemento de IntelliJ Python
 need help-variable creation in Python (continuation),Necesita una creación de ayuda variable en Python (continuación)
-Test if executable exists in Python?,¿Prueba si existe ejecutable en Python?
+Test if executable exists in Python?,¿Prueba si el ejecutable existe en Python?
 How to set and preserve minimal width?,¿Cómo establecer y preservar un ancho mínimo?
 Stackless python and multicores?,¿Python sin pilas y multicores?
 OOP and MVC programming style,Estilo de programación OOP y MVC
@@ -1789,7 +1789,7 @@ Problem sub-classing BaseException in Python,Problema Subclasioning BaseExceptio
 Idiomatic asynchronous design,Diseño asincrónico idiomático
 How do I create a Python class in C?,¿Cómo creo una clase de Python en C?
 "Getting python to work, Internal Server Error","Hacer que Python funcione, error interno del servidor"
-What does the []-esque decorator syntax in Python mean?,¿Qué significa la sintaxis del decorador [] -esque en Python?
+What does the []-esque decorator syntax in Python mean?,¿Qué significa la [] sintaxis decoradora de [] en Python?
 How to integrate the StringTemplate engine into the CherryPy web server,Cómo integrar el motor StringTemplate en el servidor web de Cherrypy
 What are these tags @ivar @param and @type in python docstring?,¿Cuáles son estas etiquetas @ivar @param y @Type en Python Docstring?
 How much slower is a wxWidget written in Python versus C++?,¿Cuánto más lento es un wxwidget escrito en Python versus C ++?
@@ -1821,7 +1821,7 @@ MySQL-db lib for Python 3.x?,Mysql-db lib para python 3.x?
 PIL and numpy,Pil y numpy
 Checking 2-dimensional array (like eight queens puzzle),Comprobación de una matriz bidimensional (como ocho rompecabezas de reinas)
 How do I send a custom header with urllib2 in a HTTP Request?,¿Cómo envío un encabezado personalizado con Urllib2 en una solicitud HTTP?
-dropping trailing '.0' from floats,dejar caer el arrastre '.0' de las carrozas
+dropping trailing '.0' from floats,dejar caer el arrastre '.0' de flotadores
 Python 3 porting workflow?,Python 3 Porting Workflow?
 "Prototype based object orientation. The good, the bad and the ugly?","Orientación de objetos basada en prototipos. ¿Lo bueno, lo malo y lo feo?"
 Extract float/double value,Extraer flotante/valor doble
@@ -1829,7 +1829,7 @@ Typecasting in Python,Typecasting en Python
 Phone numbers to links in Python,Números de teléfono a enlaces en Python
 need help - bit-field conversion,Necesito ayuda - Conversión de campo de bits
 Python Performance - have you ever had to rewrite in something else?,Python Performance - ¿Alguna vez has tenido que reescribir en otra cosa?
-Tricky Python string literals in passing parameter to timeit.Timer() function,Literales de cadena Python difíciles al pasar el parámetro a TimeIt.timer () función
+Tricky Python string literals in passing parameter to timeit.Timer() function,Literales de cadena Python difíciles de pasar el parámetro a TimeIt.timer () Función
 How do I convert part of a python tuple (byte array) into an integer,¿Cómo convierto parte de una tupla de pitón (matriz de bytes) en un entero?
 Evaluate environment variables into a string,Evaluar las variables de entorno en una cadena
 Using user input to find information in a Mysql database,Uso de la entrada del usuario para encontrar información en una base de datos MySQL
@@ -1847,13 +1847,13 @@ How can I read Perl data structures from Python?,¿Cómo puedo leer las estructu
 "Elegant ways to support equivalence (""equality"") in Python classes","Formas elegantes de apoyar la equivalencia (""igualdad"") en las clases de Python"
 Interpreting Excel Currency Values,Interpretando valores de moneda de Excel
 How do you debug Mako templates?,¿Cómo debuges las plantillas de Mako?
-Is there any built-in way to get the length of an iterable in python?,¿Hay alguna forma incorporada de obtener la longitud de una iterable en Python?
+Is there any built-in way to get the length of an iterable in python?,¿Hay alguna forma incorporada de obtener la longitud de un iterable en Python?
 Calling Application Methods from a wx Frame Class,Llamar a los métodos de aplicación desde una clase de cuadro WX
 pyGTK Radio Button Help,Ayuda de botón de radio Pygtk
-Organising my Python project,Organizando mi proyecto Python
+Organising my Python project,Organización de mi proyecto Python
 Python Optparse list,Lista de OptParse de Python
 wxPython and sharing objects between windows,wxpython y compartir objetos entre Windows
-What are your (concrete) use-cases for metaclasses in Python?,¿Cuáles son sus casos de uso (concreto) para metaclase en Python?
+What are your (concrete) use-cases for metaclasses in Python?,¿Cuáles son sus casos de uso (concretos) para metaclase en Python?
 Is there a Ruby/Python HTML reflow/layout library?,¿Hay una biblioteca de reflexión/diseño de Ruby/Python HTML?
 Modify bound variables of a closure in Python,Modificar variables unidas de un cierre en Python
 Good language to develop a game server in?,¿Un buen idioma para desarrollar un servidor de juegos en?
@@ -1867,16 +1867,16 @@ Programmatic Form Submit,Envío de formulario programático
 python and regular expression with unicode,Python y expresión regular con Unicode
 Scripting inside a Python application,Scripting dentro de una aplicación de Python
 python introspection not showing functions for Lock,La introspección de Python no muestra funciones para el bloqueo
-Finding when the ActiveApplication changes in OSX through Python,Encontrar cuándo cambia el aplicaciones de activación en OSX a través de Python
+Finding when the ActiveApplication changes in OSX through Python,Encontrar cuándo cambia la actividad de activación en OSX a Python
 Python: Lock directory access under windows,Python: acceso de directorio de bloqueo en Windows
 Python POST data using mod_wsgi,Python Post Data utilizando MOD_WSGI
 Is there a simple way in Python to create a file which can be written to in one thread and read in a different one?,¿Hay alguna forma simple en Python para crear un archivo que se pueda escribir en un hilo y leer en uno diferente?
-SDL or PyGame international input,SDL o Pygame International Input
+SDL or PyGame international input,SDL o Pygame International Inputación
 Override a method at instance level,Anular un método a nivel de instancia
 Does Python have a ternary conditional operator?,¿Python tiene un operador condicional ternario?
-Python threads stack_size and segfaults,Python Threads Stack_Size y Segfaults
+Python threads stack_size and segfaults,Python Threads stack_size y segfaults
 Download from EXPLOSM.net Comics Script [Python],Descargar desde Explosm.Net Comics Script [Python]
-templatetags don't refresh,Templatetags no se refresca
+templatetags don't refresh,Templatetags no refresca
 Can I use a ForeignKey in __unicode__ return?,¿Puedo usar un rango extranjero en __unicode__ Return?
 "How to download a file over http with authorization in python 3.0, working around bugs?","¿Cómo descargar un archivo a través de HTTP con autorización en Python 3.0, trabajando alrededor de los errores?"
 How do I install MySQL and the Python MySQL package on OS X Leopard? Or how do I learn about being a web developer using OS X?,¿Cómo instalo MySQL y el paquete Python MySQL en OS X Leopard? ¿O cómo aprendo sobre ser un desarrollador web que usa OS X?
@@ -1893,13 +1893,13 @@ commands to send messages in Python via the Poplib module?,comandos para enviar 
 Confusing [...] List in Python: What is it?,Lista confusa [...] en Python: ¿Qué es?
 Reading the target of a .lnk file in Python?,¿Leyendo el objetivo de un archivo .lnk en Python?
 Why doesn't Python have multiline comments?,¿Por qué Python no tiene comentarios multiline?
-Fast file/directory scan method for windows?,Método rápido de escaneo de archivos/directorio para Windows?
+Fast file/directory scan method for windows?,¿Método rápido de escaneo de archivos/directorio para Windows?
 Using external GUI libraries to make user interfaces in Autodesk Maya,Uso de bibliotecas de GUI externas para hacer interfaces de usuario en Autodesk Maya
 Python Proxy Script,Script proxy de Python
 Split by \b when your regex engine doesn't support it,Dividido por \ b cuando su motor regex no lo admite
 Why can't I subclass datetime.date?,¿Por qué no puedo subclase DateTime. Date?
 Extended slice that goes to beginning of sequence with negative stride,Slice extendido que llega al comienzo de la secuencia con ritmo negativo
-Failing to send email with the Python example,No enviar correo electrónico con el ejemplo de Python
+Failing to send email with the Python example,No enviar correos electrónicos con el ejemplo de Python
 Tix and Python 3.0,Tix y Python 3.0
 Programming a Logitech G15 using python,Programación de un Logitech G15 usando Python
 How to integrate pep8.py in Eclipse?,¿Cómo integrar Pep8.py en Eclipse?
@@ -1915,7 +1915,7 @@ Naming Python loggers,Nombrando a Python Loggers
 Regex that only matches text that's not part of HTML markup? (python),Regex ¿Que solo coincide con el texto que no forma parte del marcado HTML? (pitón)
 Scaling the y-axis with Matplotlib in Python,Escalar el eje y con matplotlib en python
 How to store a dictionary on a Django Model?,¿Cómo almacenar un diccionario en un modelo Django?
-How do you uninstall a python package that was installed using distutils?,¿Cómo desinstalas un paquete de Python que se instaló usando Distutils?
+How do you uninstall a python package that was installed using distutils?,¿Cómo desinstalas un paquete de pitón que se instaló usando Distutils?
 Help--Function Pointers in Python,AYUDA-Puntos de función en Python
 Caching result of setUp() using Python unittest,Resultado de almacenamiento en caché de la configuración () usando Python Unittest
 How to determine the variable type in Python?,¿Cómo determinar el tipo de variable en Python?
@@ -1927,18 +1927,18 @@ Calling from a parent file in python,Llamar desde un archivo matriz en Python
 using results from a sql query in a python program in another sql query,Usar los resultados de una consulta SQL en un programa de Python en otra consulta SQL
 All code in one file,Todo el código en un archivo
 Python program to calculate harmonic series,Programa de Python para calcular la serie armónica
-"Python globals, locals, and UnboundLocalError","Python Globals, lugareños y Unboundlocalerror"
+"Python globals, locals, and UnboundLocalError","Python Globals, lugareños y UnboundLocalerRor"
 Determining application path in a Python EXE generated by pyInstaller,Determinar la ruta de aplicación en un Python EXE generado por Pyinstaller
 LBYL vs EAFP in Java?,LBYL VS EAFP en Java?
 I need help--lists and Python,Necesito ayuda-Listas y Python
 Line reading chokes on 0x1A,La lectura de línea se estrangula en 0x1a
 "I can't but help get the idea I'm doing it all wrong (Python, again)","No puedo dejar de ayudar a tener la idea de que estoy haciendo todo mal (Python, nuevamente)"
-"Please advise on Ruby vs Python, for someone who likes LISP a lot","Por favor avise sobre Ruby vs Python, para alguien a quien le gusta mucho Lisp"
+"Please advise on Ruby vs Python, for someone who likes LISP a lot","Por favor, avíse sobre Ruby vs Python, para alguien a quien le gusta mucho Lisp"
 Many instances of a class,Muchos casos de clase
 Mysql connection pooling question: is it worth it?,Pregunta de agrupación de conexión de MySQL: ¿Vale la pena?
 Python update object from dictionary,Objeto de actualización de Python desde el diccionario
 Hiding implementation details on an email templating system written in Python,Ocultación de detalles de implementación en un sistema de plantillas de correo electrónico escrito en Python
-if all in list == something,Si todo en lista == algo
+if all in list == something,Si todo en List == algo
 What is a cyclic data structure good for?,¿Para qué sirve una estructura de datos cíclico?
 Function and class documentation best practices for Python,Las mejores prácticas de la función y la documentación de la clase para Python
 Accepting File Argument in Python (from Send To context menu),Aceptar el argumento de archivo en Python (desde el menú Enviar al Menú contextual)
@@ -1976,13 +1976,13 @@ Natural/Relative days in Python,Días naturales/relativos en Python
 Implementing a buffer-like structure in Python,Implementación de una estructura tipo búfer en Python
 Using AD as authentication for Django,Uso de AD como autenticación para Django
 TKinter windows do not appear when using multiprocessing on Linux,Las ventanas tkinter no aparecen al usar multiprocesamiento en Linux
-what's the 5 character alphanumeric id in reddit URL?,¿Cuál es la identificación alfanumérica de 5 caracteres en la URL reddit?
+what's the 5 character alphanumeric id in reddit URL?,¿Cuál es la identificación alfanumérica de 5 caracteres en URL reddit?
 Best modules to develop a simple windowed 3D modeling application?,¿Los mejores módulos para desarrollar una aplicación de modelado 3D con ventana simple?
 How do I parse XML from a Google app engine app?,¿Cómo analizo XML de una aplicación de motor de Google App?
 "gtk.Builder, container subclass and binding child widgets","GTK.Builder, subclase de contenedores y widgets infantiles vinculantes"
 Variable number of inputs with Django forms possible?,¿Número variable de entradas con formularios Django posibles?
 How do I retrieve a Django model class dynamically?,¿Cómo recupero una clase de modelo Django dinámicamente?
-Django file upload failing occasionally,Carga de archivo Django falla ocasionalmente
+Django file upload failing occasionally,Carga de archivo django falla ocasionalmente
 How to bring program to front using python,Cómo llevar el programa al frente usando Python
 How to (simply) connect Python to my web site?,¿Cómo (simplemente) conectar Python a mi sitio web?
 Using mocking to test derived classes in Python,Usando burlas para probar clases derivadas en Python
