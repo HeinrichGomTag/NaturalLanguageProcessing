@@ -13,7 +13,7 @@ Any experiences with Protocol Buffers?
 How do I make a menu that does not require the user to press [enter] to make a selection?
 How to check what OS am I running on in Python?
 "Python: what is the difference between (1,2,3) and [1,2,3], and when should I use each?"
-File size differences after copying a file to a server vÃ­a FTP
+File size differences after copying a file to a server vía FTP
 How can I create a directly-executable cross-platform GUI app using Python?
 Calling a function of a module from a string with the function's name in Python
 Programmatically talking to a Serial Port in OS X or Linux
@@ -558,7 +558,7 @@ Python PostgreSQL modules. Which is best?
 Something like Explorer's icon grid view in a Python GUI
 Calling C/C++ from python?
 Text difference algorithm
-How do I successfully pass a function reference to Djangoâs reverse() function?
+How do I successfully pass a function reference to Django’s reverse() function?
 I'm using Python regexes in a criminally inefficient manner
 "In Django, where is the best place to put short snippets of HTML-formatted data?"
 "Difflib.SequenceMatcher isjunk optional parameter query: how to ignore whitespaces, tabs, empty lines?"
@@ -652,7 +652,7 @@ Finding a public facing IP address in Python?
 Calling Python in PHP
 Removing a subset of a dict from within a list
 Problem With Python Sockets: How To Get Reliably POSTed data whatever the browser?
-How do I enter a pound sterling character (Â£) into the Python interactive shell on Mac OS X?
+How do I enter a pound sterling character (£) into the Python interactive shell on Mac OS X?
 What is best way to remove duplicate lines matching regex from string using Python?
 Naming conventions in a Python library
 Django: How do I create a generic url routing to views?
@@ -894,7 +894,7 @@ Smart Sudoku Golf
 How close are development webservers to production webservers?
 Group by date in a particular format in SQLAlchemy
 "In Python, what does it mean if an object is subscriptable or not?"
-Python/editline on OS X: Â£ sign seems to be bound to ed-prev-word
+Python/editline on OS X: £ sign seems to be bound to ed-prev-word
 "How can I determine the display idle time from Python in Windows, Linux, and MacOS?"
 Troubleshooting py2exe packaging problem
 String Simple Substitution
@@ -905,7 +905,7 @@ how can i use sharepoint (via soap?) from python?
 "How Python web frameworks, WSGI and CGI fit together"
 How do I use Tkinter with Python on Windows Vista?
 "django,fastcgi: how to manage a long running process?"
-Iâm stunned: weird problem with python and sockets + threads
+I’m stunned: weird problem with python and sockets + threads
 Ensure a single instance of an application in Linux
 Including PYDs/DLLs in py2exe builds
 load dll from python
@@ -1369,7 +1369,7 @@ Python decorator makes function forget that it belongs to a class
 How do I randomly select an item from a list using Python?
 How can I get a list of the running applications with GTK?
 "With Python, how can I ensure that compression of a folder takes place within a particular folder?"
-How do I disable PythonWin's âRedirecting output to win32trace remote collectorâ feature without uninstalling PythonWin?
+How do I disable PythonWin's “Redirecting output to win32trace remote collector” feature without uninstalling PythonWin?
 Django foreign key access in save() function
 Create plugins for python standalone executables
 function pointers in python
