@@ -1,0 +1,58 @@
+Initial IDF Table:
+         Word       IDF
+0          04  7.908255
+1354  fábrica  7.908255
+1367     gear  7.908255
+1366      gdb  7.908255
+1365    gconf  7.908255
+...       ...       ...
+2389    puedo  4.016435
+208   archivo  3.874015
+954    django  3.495457
+771      cómo  2.315404
+2420   python  1.602893
+
+[3205 rows x 2 columns]
+Filtered IDF Table:
+                Word       IDF
+0             previa  7.600902
+1     aleatoriamente  7.600902
+2          comparten  7.600902
+3         standalone  7.600902
+4        ejecutables  7.600902
+...              ...       ...
+1987     ruby/python  6.214608
+1988             3.0  5.809143
+1989             2.5  5.521461
+1990             2.6  5.403678
+1991               s  5.298317
+
+[1992 rows x 2 columns]
+
+Top 10 words:
+Word                 IDF Value
+------------------------------
+previa               7.600902459542082
+aleatoriamente       7.600902459542082
+comparten            7.600902459542082
+standalone           7.600902459542082
+ejecutables          7.600902459542082
+access               7.600902459542082
+fore                 7.600902459542082
+save                 7.600902459542082
+redireccionamiento   7.600902459542082
+desinstalar          7.600902459542082
+
+Bottom 10 words:
+Word                 IDF Value
+------------------------------
+o                    6.502290170873972
+os.system            6.502290170873972
+2.3                  6.502290170873972
+a                    6.502290170873972
+y/o                  6.502290170873972
+ruby/python          6.214608098422191
+3.0                  5.809142990314028
+2.5                  5.521460917862246
+2.6                  5.403677882205863
+s                    5.298317366548036
