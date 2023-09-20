@@ -1,81 +1,110 @@
-# Importar las librerías necesarias
 import pandas as pd
 import numpy as np
-import matplotlib.pyplot as plt
 import spacy
-from sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.model_selection import train_test_split, GridSearchCV, StratifiedKFold
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.svm import LinearSVC
-from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.pipeline import Pipeline
-from sklearn.metrics import confusion_matrix, classification_report, accuracy_score
+from sklearn.linear_model import SGDClassifier
+from sklearn.neighbors import KNeighborsClassifier
 from sklearn.ensemble import VotingClassifier
+from sklearn.metrics import accuracy_score
+from imblearn.over_sampling import SMOTE
 
-# Cargar el modelo de lenguaje español de SpaCy para la lematización y análisis de sentimiento
+# --- PREPROCESAMIENTO DE DATOS ---
+
+# Carga del modelo de lenguaje español de SpaCy para lematización
 nlp = spacy.load('es_core_news_sm')
 
-# Función para determinar el sentimiento del título
-def get_sentiment(text):
+def lemmatize_text(text):
+    """Lematiza el texto proporcionado."""
     doc = nlp(text)
-    if doc.sentiment > 0:
-        return 'positive'
-    elif doc.sentiment < 0:
-        return 'negative'
-    else:
-        return 'neutral'
+    return " ".join([token.lemma_ for token in doc])
 
-# Paso 01 - Lectura del conjunto de información
+def count_punctuation(text):
+    """Cuenta los signos de puntuación en el texto."""
+    return sum(1 for char in text if char in '.,;:!?')
+
+def avg_word_length(text):
+    """Calcula la longitud promedio de las palabras en el texto."""
+    words = text.split()
+    return sum(len(word) for word in words) / len(words)
+
+# Carga y preprocesamiento del conjunto de datos
 df2 = pd.read_csv('DataSet para entrenamiento del modelo.csv')
-df2.index = np.arange(1, len(df2) + 1)
-
-# Paso 02 - Verificación y validación de la información
-df2 = df2.dropna()
-df2 = df2[df2['title'] != ""]
-
-# Feature Engineering
+df2['title'] = df2['title'].apply(lemmatize_text)
 df2['title_length'] = df2['title'].apply(len)
 df2['word_count'] = df2['title'].apply(lambda x: len(x.split()))
-df2['punctuation_count'] = df2['title'].apply(lambda x: sum(1 for char in x if char in '.,;:!?'))
-df2['sentiment'] = df2['title'].apply(get_sentiment)
-df2 = pd.get_dummies(df2, columns=['sentiment'])
+df2['punctuation_count'] = df2['title'].apply(count_punctuation)
+df2['avg_word_length'] = df2['title'].apply(avg_word_length)
 
-# Paso 05 - Construcción del modelo de NLP
-X = df2['title']
-Y = df2['label']
-X_train, X_test, Y_train, Y_test = train_test_split(X, Y, test_size = 0.2)
+# División del conjunto de datos en entrenamiento y prueba
+X = df2[['title', 'title_length', 'word_count', 'punctuation_count', 'avg_word_length']]
+y = df2['label']
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y)
 
-# Definición de modelos
-clf_logistic = Pipeline([('tfidf', TfidfVectorizer()), ('clf', LogisticRegression())])
-clf_naive_bayes = Pipeline([('tfidf', TfidfVectorizer()), ('clf', MultinomialNB())])
-clf_svc = Pipeline([('tfidf', TfidfVectorizer()), ('clf', LinearSVC())])
+# Vectorización del texto
+vectorizer = TfidfVectorizer(lowercase=True, stop_words=['de', 'para'])
+X_train_vectorized = vectorizer.fit_transform(X_train['title'])
+X_test_vectorized = vectorizer.transform(X_test['title'])
 
-# Parámetros para la búsqueda en cuadrícula
-param_grid = {
-    'tfidf__max_df': [0.85, 0.9, 0.95],
-    'tfidf__ngram_range': [(1, 1), (1, 2), (1, 3)],
-    'clf__C': [0.1, 1, 10]
-}
+# Incorporación de características adicionales
+X_train_vectorized = np.hstack((X_train_vectorized.toarray(), X_train[['title_length', 'word_count', 'punctuation_count', 'avg_word_length']].values))
+X_test_vectorized = np.hstack((X_test_vectorized.toarray(), X_test[['title_length', 'word_count', 'punctuation_count', 'avg_word_length']].values))
 
-# Búsqueda en cuadrícula para SVC
-grid_search_svc = GridSearchCV(clf_svc, param_grid, cv=5)
-grid_search_svc.fit(X_train, Y_train)
-best_clf_svc = grid_search_svc.best_estimator_
+# Balanceo de clases con SMOTE
+smote = SMOTE()
+X_train_resampled, y_train_resampled = smote.fit_resample(X_train_vectorized, y_train)
 
-# Evaluación de modelos
-Predicciones_svc = best_clf_svc.predict(X_test)
-print("\nAccuracy del modelo SVC optimizado: ")
-print(accuracy_score(Y_test, Predicciones_svc))
+# --- ENTRENAMIENTO DE MODELOS Y OPTIMIZACIÓN ---
 
-# Modelo de Ensemble (Votación)
-ensemble_model = VotingClassifier(estimators=[
-    ('svc', best_clf_svc),
-    ('logistic', clf_logistic),
-    ('naive_bayes', clf_naive_bayes)
-], voting='hard')
+# Optimización de parámetros para LinearSVC
+param_grid_svc = {'C': [0.001, 0.01, 0.1, 1, 10, 100]}
+grid_search_svc = GridSearchCV(LinearSVC(dual=False, max_iter=5000), param_grid_svc, cv=StratifiedKFold(n_splits=5), n_jobs=-1)
+grid_search_svc.fit(X_train_resampled, y_train_resampled)
 
-ensemble_model.fit(X_train, Y_train)
-ensemble_predictions = ensemble_model.predict(X_test)
+# Optimización de parámetros para SGDClassifier
+param_grid_sgd = {'alpha': [0.0001, 0.001, 0.01, 0.1], 'penalty': ['l1', 'l2']}
+grid_search_sgd = GridSearchCV(SGDClassifier(), param_grid_sgd, cv=StratifiedKFold(n_splits=5), n_jobs=-1)
+grid_search_sgd.fit(X_train_resampled, y_train_resampled)
 
-print("\nAccuracy del modelo de ensemble: ")
-print(accuracy_score(Y_test, ensemble_predictions))
+# Optimización de parámetros para KNeighborsClassifier
+param_grid_knn = {'n_neighbors': [3, 5, 7, 9], 'weights': ['uniform', 'distance']}
+grid_search_knn = GridSearchCV(KNeighborsClassifier(), param_grid_knn, cv=StratifiedKFold(n_splits=5), n_jobs=-1)
+grid_search_knn.fit(X_train_resampled, y_train_resampled)
+
+# # Modelo de ensemble con votación suave
+# eclf = VotingClassifier(estimators=[('svc', grid_search_svc.best_estimator_), 
+#                                     ('sgd', grid_search_sgd.best_estimator_), 
+#                                     ('knn', grid_search_knn.best_estimator_)], 
+#                         voting='soft')
+# # Entrenamiento y evaluación del modelo de ensemble
+# eclf.fit(X_train_resampled, y_train_resampled)
+# y_pred_ensemble = eclf.predict(X_test_vectorized)
+# accuracy_ensemble = accuracy_score(y_test, y_pred_ensemble)
+# print(f"Accuracy del modelo de ensemble: {accuracy_ensemble}")
+
+# # --- EVALUACIÓN DE MODELOS INDIVIDUALES ---
+
+# Evaluación de LinearSVC
+y_pred_svc = grid_search_svc.best_estimator_.predict(X_test_vectorized)
+accuracy_svc = accuracy_score(y_test, y_pred_svc)
+print(f"Accuracy del modelo LinearSVC optimizado: {accuracy_svc}")
+
+# Evaluación de SGDClassifier
+# y_pred_sgd = grid_search_sgd.best_estimator_.predict(X_test_vectorized)
+# accuracy_sgd = accuracy_score(y_test, y_pred_sgd)
+# print(f"Accuracy del modelo SGDClassifier optimizado: {accuracy_sgd}")
+
+# Evaluación de KNeighborsClassifier
+# y_pred_knn = grid_search_knn.best_estimator_.predict(X_test_vectorized)
+# accuracy_knn = accuracy_score(y_test, y_pred_knn)
+# print(f"Accuracy del modelo KNeighborsClassifier optimizado: {accuracy_knn}")
+
+# # --- EVALUACIÓN DE MODELO ENSAMBLADO ---
+
+# y_pred_ensemble = eclf.predict(X_test_vectorized)
+# accuracy_ensemble = accuracy_score(y_test, y_pred_ensemble)
+# print(f"Accuracy del modelo de ensemble: {accuracy_ensemble}")
+
+# # OUTPUT
+
