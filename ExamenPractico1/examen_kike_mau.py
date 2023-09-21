@@ -41,7 +41,11 @@ def augment(df):
     df_augmented = df.copy()
     clickbait_rows = df_augmented[df_augmented["label"] == "clickbait"].copy()
     clickbait_rows["title"] = clickbait_rows["title"].apply(replace_with_synonym)
+    print(df.head())
+    print(df_augmented.head())
     return pd.concat([df, clickbait_rows], ignore_index=True)
+
+
 
 # Preprocesamiento
 def preprocess_text(text):
@@ -73,7 +77,9 @@ print("Shape of the original dataset:", df.shape)
 
 # Aplicar Data Augmentation
 df = augment(df)
+
 df = augment(df)
+
 
 # Punto de interrupción 2: Después de la Data Augmentation
 print("Shape of the dataset after Data Augmentation:", df.shape)
@@ -178,3 +184,8 @@ print(f"Accuracy promedio con cross-validation para el modelo de ensemble: {ense
 
 # Accuracy del modelo de ensemble: 0.8776978417266187
 # Accuracy promedio con cross-validation para el modelo de ensemble: 0.8602
+
+
+
+
+#aumentar solo una vez en vez de dos, probar con otro dataset similar
