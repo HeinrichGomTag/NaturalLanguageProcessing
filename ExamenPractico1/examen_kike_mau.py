@@ -17,8 +17,7 @@ from sklearn.preprocessing import StandardScaler
 nltk.download('wordnet')
 nltk.download('stopwords')
 
-# Cargar modelo de lenguaje español de SpaCy
-nlp = spacy.load('es_core_news_sm')
+nlp = spacy.load('en_core_web_lg')
 
 # Data Augmentation
 def get_synonyms(word):
@@ -41,17 +40,13 @@ def augment(df):
     df_augmented = df.copy()
     clickbait_rows = df_augmented[df_augmented["label"] == "clickbait"].copy()
     clickbait_rows["title"] = clickbait_rows["title"].apply(replace_with_synonym)
-    print(df.head())
-    print(df_augmented.head())
     return pd.concat([df, clickbait_rows], ignore_index=True)
-
-
 
 # Preprocesamiento
 def preprocess_text(text):
     text = text.lower()
     text = ''.join([char for char in text if char.isalpha() or char.isspace()])
-    stopwords = nltk.corpus.stopwords.words('spanish')
+    stopwords = nltk.corpus.stopwords.words('english')
     text = ' '.join([word for word in text.split() if word not in stopwords])
     doc = nlp(text)
     return ' '.join([token.lemma_ for token in doc])
@@ -72,14 +67,20 @@ def feature_engineering(df):
 df = pd.read_csv('DataSet para entrenamiento del modelo.csv').dropna()
 df = df[df['title'] != ""]
 
-# Punto de interrupción 1: Después de cargar el conjunto de datos
+# Punto de interrupción 1: Después de cargar el conjunto de datos# ... [El código anterior]
 print("Shape of the original dataset:", df.shape)
 
-# Aplicar Data Augmentation
-df = augment(df)
+# Check imbalance and augment data if necessary
+label_counts = df['label'].value_counts()
+majority_count = label_counts.max()
+minority_count = label_counts.min()
 
-df = augment(df)
-
+while minority_count / majority_count < 0.7:
+    df = augment(df)
+    # Re-calcula las cantidades después de la ampliación
+    label_counts = df['label'].value_counts()
+    majority_count = label_counts.max()
+    minority_count = label_counts.min()
 
 # Punto de interrupción 2: Después de la Data Augmentation
 print("Shape of the dataset after Data Augmentation:", df.shape)
@@ -111,7 +112,7 @@ print("Dimensiones de Y_train:", Y_train.shape)
 # Create a transformer that applies TfidfVectorizer to the 'title' column and StandardScaler to the numeric features.
 preprocessor = ColumnTransformer(
     transformers=[
-        ('text', TfidfVectorizer(stop_words=nltk.corpus.stopwords.words('spanish')), 'title'),
+        ('text', TfidfVectorizer(stop_words=nltk.corpus.stopwords.words('english')), 'title'),
         ('num', StandardScaler(), [col for col in X.columns if col != 'title'])
     ])
 
@@ -120,7 +121,7 @@ pipelines = {
     'Logistic Regression': Pipeline([('preprocessor', preprocessor),
                                     ('clf', LogisticRegression(max_iter=1000))]),
     'LinearSVC': Pipeline([('preprocessor', preprocessor),
-                                    ('clf', LinearSVC(dual=False))])
+                            ('clf', LinearSVC(dual=False))])
 }
 
 # Definir parámetros para la búsqueda en cuadrícula
@@ -157,35 +158,3 @@ print("\nAccuracy del modelo de ensemble:", ensemble_accuracy)
 
 ensemble_cv_accuracy = cross_val_score(ensemble_model, X, Y, cv=5, scoring='accuracy').mean()
 print(f"Accuracy promedio con cross-validation para el modelo de ensemble: {ensemble_cv_accuracy:.4f}\n")
-
-
-# OUTPUT
-# python examen_kike_mau.py
-# 2023-09-20 09:49:55.477083: I tensorflow/core/platform/cpu_feature_guard.cc:182] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
-# To enable the following instructions: SSE4.1 SSE4.2 AVX AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
-# [nltk_data] Downloading package wordnet to /home/eubgo/nltk_data...
-# [nltk_data]   Package wordnet is already up-to-date!
-# [nltk_data] Downloading package stopwords to /home/eubgo/nltk_data...
-# [nltk_data]   Package stopwords is already up-to-date!
-# Shape of the original dataset: (16823, 2)
-# Shape of the dataset after Data Augmentation: (27101, 2)
-# Shape of the dataset after Preprocessing: (27101, 2)
-# Shape of the dataset after Feature Engineering: (27101, 13)
-# Dimensiones de X: (27101, 12)
-# Dimensiones de Y: (27101,)
-# Dimensiones de X_train: (21680, 12)
-# Dimensiones de Y_train: (21680,)
-# Accuracy del modelo Logistic Regression optimizado: 0.8768
-# Accuracy promedio con cross-validation para Logistic Regression: 0.8569
-
-# Accuracy del modelo LinearSVC optimizado: 0.8794
-# Accuracy promedio con cross-validation para LinearSVC: 0.8631
-
-
-# Accuracy del modelo de ensemble: 0.8776978417266187
-# Accuracy promedio con cross-validation para el modelo de ensemble: 0.8602
-
-
-
-
-#aumentar solo una vez en vez de dos, probar con otro dataset similar
