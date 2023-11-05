@@ -22,83 +22,74 @@ def instancer(inp, model, tags):
     results_index = numpy.argmax(results)
     tag = list(tags.keys())[results_index]
     maxscore = numpy.max(results)
+    print("TAG: ", tag, "MAXSCORE: ", maxscore)
     return tag, maxscore
 
 
-# Función del Nivel contextual 1:
-def Activar_NI():
-    # Pregunta inicial cuando se ingresa en el nivel contextual NI
-    print("\nChatBot: ¿En qué puedo ayudarte?\n")
+def Activar_NI(input_text):
+    # Simula la lógica que antes se hacía con el modelo de lenguaje y las entradas
+    # Por simplicidad, voy a asumir que la función instancer devuelve un tag y un maxscore
+    # Asumiremos también que la función instancer puede ser llamada con input_text y no necesita ser llamada en un loop
 
-    while True:
-        inp = input("     Tú: ")
-        tag, maxscore = instancer(inp, model_NI, NI)
+    tag, maxscore = instancer(input_text, model_NI, NI)
 
-        if maxscore > 0.8 or inp == 'salir':
-            break
-        else:
-            print("\nChatBot: Lo siento, pero no entendí tu petición, ¿Podrías decirlo de otra forma?\n")
-
-    if inp == 'salir':
-        print("\nChatBot: Hasta luego, fue un gusto hablar contigo\n")
-        return 'salir'
-
-    if tag == 'Reservar_Habitacion':
-        if inp.count('Tipo_Habitacion') > 0:
-            return 'NIIA1'
-        elif inp.count('Fecha_entrada') > 0:
-            return 'NIIA2'
-        elif inp.count('Fecha_salida') > 0:
-            return 'NIIA3'
-        elif inp.count("Num_huespedes") > 0:
-            return 'NIIA4'
-        else:
-            return 'NIIA'
+    if maxscore > 0.7 or input_text == 'salir':
+        if input_text == 'salir':
+            return "ChatBot: Hasta luego, fue un gusto hablar contigo", 'salir'
+        if tag == 'Reservar_Habitacion':
+            # Aquí manejamos la lógica para decidir a qué estado ir a continuación
+            if 'Tipo_Habitacion' in input_text:
+                return "Continuar con la reserva: Tipo de Habitación", 'NIIA1'
+            elif 'Fecha_entrada' in input_text:
+                return "Continuar con la reserva: Fecha de Entrada", 'NIIA2'
+            elif 'Fecha_salida' in input_text:
+                return "Continuar con la reserva: Fecha de Salida", 'NIIA3'
+            elif "Num_huespedes" in input_text:
+                return "Continuar con la reserva: Número de Huéspedes", 'NIIA4'
+            else:
+                return "Continuar con la reserva...", 'NIIA'
+    else:
+        return "ChatBot: Lo siento, pero no entendí tu petición, ¿Podrías decirlo de otra forma?", 'NI'
 
 
-# Función del Nivel contextual IIA:
-def Activar_NIIA():
-    # Pregunta inicial cuando se ingresa en el nivel contextual NIIA
+# Función del Nivel contextual IIA refactorizada para eliminar inputs y ser utilizada en interfaces GUI/API.
+def Activar_NIIA(input_text):
     print("\nChatBot: Perfecto Vamos a reservar una habitación\n")
-
-    # return 'NIIA1' ### De momento añado esta linea para quitar redundancia (perguntar dudas)
-
     global Tipo_Cuarto
     global Fecha_entrada
     global Fecha_salida
     global Num_huespedes
 
-    while True:
-        inp = input("     Tú: ")
-        tag, maxscore = instancer(inp, model_NIIA, NIIA)
+    # Reemplazar el bucle while y el input por una simple llamada a la función instancer
+    tag, maxscore = instancer(input_text, model_NIIA, NIIA)
 
-        if maxscore > 0.5 or inp == 'salir' or inp == 'volver':
-            break
-        else:
-            print("\nChatBot: Lo siento, pero no entendí. Puedes decirme \"Reservar Habitación\" por ejemplo.\n")
+    # No necesitamos el bucle ya que esta función será llamada cada vez que el usuario ingrese algo.
+    if maxscore > 0.5 or input_text == 'salir' or input_text == 'volver':
+        if input_text == 'volver':
+            return 'NI'
 
-    if inp == 'volver':
-        return 'NI'
+        if input_text == 'salir':
+            print("\nChatBot: Hasta luego, fue un gusto hablar contigo\n")
+            return 'salir'
 
-    if inp == 'salir':
-        print("\nChatBot: Hasta luego, fue un gusto hablar contigo\n")
-        return 'salir'
+        if tag == 'Tipo_Habitacion' or Tipo_Cuarto == "":
+            return 'NIIA1'
 
-    if tag == 'Tipo_Habitacion' or Tipo_Cuarto == "":
-        return 'NIIA1'
+        if tag == 'Fecha_entrada':
+            return 'NIIA2'
 
-    if tag == 'Fecha_entrada':
-        return 'NIIA2'
+        if tag == 'Fecha_salida':
+            return 'NIIA3'
 
-    if tag == 'Fecha_salida':
-        return 'NIIA3'
-
-    if tag == 'Num_huespedes':
-        return 'NIIA4'
+        if tag == 'Num_huespedes':
+            return 'NIIA4'
+    else:
+        print("\nChatBot: Lo siento, pero no entendí. Puedes decirme \"Reservar Habitación\" por ejemplo.\n")
+        return None  # O puedes retornar un estado que indique que se necesita más información.
 
 
 # Función del Nivel contextual IIA1:
-def Activar_NIIA1():
+def Activar_NIIA1(input_text):
     # Pregunta inicial cuando se ingresa en el nivel contextual NIIA1
 
     global Tipo_Cuarto
@@ -161,7 +152,7 @@ elif platform.system() == 'Windows':
     locale.setlocale(locale.LC_TIME, 'Spanish_Spain.1252')
 
 
-def Activar_NIIA2():
+def Activar_NIIA2(input_text):
     # Pregunta inicial cuando se ingresa en el nivel contextual NIIA2
 
     global Fecha_entrada
@@ -196,7 +187,7 @@ def Activar_NIIA2():
 
 
 # Función del Nivel contextual IIA3:
-def Activar_NIIA3():
+def Activar_NIIA3(input_text):
     # Pregunta inicial cuando se ingresa en el nivel contextual NIIA3
 
     global Fecha_salida
@@ -236,7 +227,7 @@ def Activar_NIIA3():
 
 
 # Función del Nivel contextual IIA4:
-def Activar_NIIA4():
+def Activar_NIIA4(input_text):
     # Pregunta inicial cuando se ingresa en el nivel contextual NIIA4
 
     global Num_huespedes
@@ -413,21 +404,6 @@ def Quitar_Stopwords(Textos):
     return X
 
 
-
-
-def chatbot_interface(input_text):
-    global Nivel, Num_huespedes, Tipo_Cuarto, Fecha_entrada, Fecha_salida
-    if Nivel == 'NI':
-        print("\nChatBot: Hola, soy el ChatBot, comienza a Hablar conmigo")
-
-    Nivel = maquina_estados[Nivel](input_text)
-
-    if Nivel == 'salir':
-        return ("La reservación final es de {} personas con el tipo de cuarto {} con fecha de entrada {} y fecha de salida {}".format(Num_huespedes, Tipo_Cuarto, Fecha_entrada, Fecha_salida))
-    else:
-        return Nivel  # O alguna respuesta generada por tu chatbot
-
-
 # Lectura de formatos .json para entrenar cada modelo y asignación
 # de información correspondiente
 with open('Intenciones_NivelI.json', encoding='utf-8') as file:
@@ -435,10 +411,7 @@ with open('Intenciones_NivelI.json', encoding='utf-8') as file:
 
 with open('Intenciones_NivelIIA.json', encoding='utf-8') as file:
     data_NivelIIA = json.load(file)
-
-with open('Intenciones_NivelIIB.json', encoding='utf-8') as file:
-    data_NivelIIB = json.load(file)
-
+    
 # Creación de diccionarios con los nombres de las clases y textos
 # presentes en cada uno de los archivos
 NI = dict()
@@ -622,14 +595,14 @@ history_NIIB = Entrenar_Modelos(X_NIIB_train, Y_NIIB, model_NIIB, NIIB.keys())
 
 
 
-# Graficar el modelo NI
-Grafica_Modelo(history_NI)
-
-# Graficar el modelo NIIA
-Grafica_Modelo(history_NIIA)
-
-# Graficar el modelo NIIB
-Grafica_Modelo(history_NIIB)
+# # Graficar el modelo NI
+# Grafica_Modelo(history_NI)
+#
+# # Graficar el modelo NIIA
+# Grafica_Modelo(history_NIIA)
+#
+# # Graficar el modelo NIIB
+# Grafica_Modelo(history_NIIB)
 
 
 
@@ -649,20 +622,6 @@ Fecha_entrada = ""
 Fecha_salida = ""
 Num_huespedes = 0
 
-def chat1():
-    Nivel = 'NI'
-    # Pregunta inicial, solo cuando se inicia el ChatBot
-    print("\nChatBot: Hola, soy el ChatBot, comienza a Hablar conmigo")
-
-    while True:
-        Nivel = maquina_estados[Nivel]()
-        print(Nivel)
-        if Nivel == 'salir':
-            print("La reservación final es de ", Num_huespedes, " personas con el tipo de cuarto ", Tipo_Cuarto,
-                  " con fecha de entrada ", Fecha_entrada, " y fecha de salida ", Fecha_salida)
-            break
-
-
 # Inicializa las variables globales
 Nivel = 'NI'
 Num_huespedes = 0
@@ -670,32 +629,46 @@ Tipo_Cuarto = ''
 Fecha_entrada = ''
 Fecha_salida = ''
 
-# Suponiendo que tienes una función que maneja la lógica del chatbot y devuelve una respuesta
-def manejar_mensaje(mensaje):
-    global Nivel
-    respuesta = ""
-    Nivel = maquina_estados[Nivel](mensaje)
+
+def chat1():
+    Nivel = 'NI'
+    # Pregunta inicial, solo cuando se inicia el ChatBot
+    print("\nChatBot: Hola, soy el ChatBot, comienza a Hablar conmigo")
+
+    while True:
+        Nivel = maquina_estados[Nivel]()
+        # print(Nivel)
+        if Nivel == 'salir':
+            print("La reservación final es de ", Num_huespedes, " personas con el tipo de cuarto ", Tipo_Cuarto,
+                  " con fecha de entrada ", Fecha_entrada, " y fecha de salida ", Fecha_salida)
+            break
+
+# In[]
+import gradio as gr
+# Luego, en la función de chatbot_interface
+def chatbot_interface(input_text):
+    global Nivel, Num_huespedes, Tipo_Cuarto, Fecha_entrada, Fecha_salida
+    response, next_state = maquina_estados[Nivel](input_text)
+    Nivel = next_state
+
+    # Si necesitas retornar al usuario la información final de la reservación
     if Nivel == 'salir':
-        respuesta = f"La reservación final es de {Num_huespedes} personas con el tipo de cuarto {Tipo_Cuarto}, con fecha de entrada {Fecha_entrada} y fecha de salida {Fecha_salida}"
-        Nivel = 'NI'
+        return ("La reservación final es de {} personas con el tipo de cuarto {} con fecha de entrada {} y fecha de salida {}".format(Num_huespedes, Tipo_Cuarto, Fecha_entrada, Fecha_salida))
     else:
-        respuesta = "..."
-    return respuesta
+        return response  # La respuesta para la interfaz de Gradio
 
-# Esta es la función que Gradio llamará cuando el usuario envíe un mensaje
-def chatbot_interface(mensaje):
-    try:
-        return manejar_mensaje(mensaje)
-    except Exception as e:
-        return str(e)  # Devuelve el mensaje de error para depuración
+def chatbot_response(text):
+    # Aquí iría la lógica para obtener la respuesta del chatbot
+    # Por ejemplo, podrías llamar a la función `chatbot_interface` que ya tienes
+    response = chatbot_interface(text)
+    return response
 
-# Configura la interfaz de Gradio
 iface = gr.Interface(
-    fn=chatbot_interface,
-    inputs=gr.inputs.Textbox(lines=2, placeholder="Escribe aquí para hablar con el ChatBot..."),
-    outputs="text",
-    live=True
+    fn=chatbot_response,  # La función que manejará la entrada del usuario
+    inputs="text",        # El tipo de entrada, en este caso, texto
+    outputs="text",       # El tipo de salida, también texto
+    title="Chatbot de Reservaciones",  # Título de la interfaz
+    description="Habla con el chatbot para hacer reservaciones."  # Descripción opcional
 )
 
-# Inicia la interfaz de Gradio
 iface.launch()
