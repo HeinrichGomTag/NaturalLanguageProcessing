@@ -1,6 +1,6 @@
 {"intents": [
         {"tag": "Tipo_Habitacion",
-        "patterns": [
+         "patterns": [
 			"Quisiera una habitación estándar",
 			"Prefiero una suite",
 			"Me gustaría reservar una habitación doble",
