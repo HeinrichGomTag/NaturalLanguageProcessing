@@ -1,25 +1,23 @@
 {"intents": [
         {"tag": "Apartar_espacio",
          "patterns": [
-			"Quiero reservar la alberca",
-			"Necesito apartar el gimnasio",
-			"Me gustaría reservar el salón de eventos",
-			"Me gustaría apartar la terraza",
-			"Quiero apartar el spa",
-			"Quiero apartar la alberca",
-			"Quiero reservar el gym",
-			"Quiero apartar el gym"]
+			"Quiero reservar",
+			"Necesito apartar",
+			"Me gustaría reservar ",
+			"Me gustaría apartar",
+			"Quiero apartar",
+			"Apartar"
+		]
         },
 		{"tag": "Servicio",
          "patterns": [
-			"Necesito que limpien mi habitación por favor",
-			"Necesito que se limpie mi cuarto por favor",
-			"Hay que limpiar la habitación",
-			"Por favor envíen más toallas a mi habitación",
-			"Necesito que me traigan más jabón",
-			"Necesito que me traigan más shampoo",
-			"Necesito ayuda con el equipaje",
-			"Quiero que me traigan más almohadas"]
+			"Necesito limpieza",
+			"Necesito que se limpie",
+			"Hay que limpiar",
+			"Envíen más",
+			"Necesito que me traigan",
+			"Necesito ayuda",
+			"Quiero que traigan"]
 		 },
 		 {"tag": "Comida_bebida",
          "patterns": [

@@ -49,6 +49,10 @@
 		},
 		{"tag": "Num_huespedes",
 		 "patterns": [
+			"1",
+			"2",
+			"3",
+			"4",
 			"Solo seré yo",
 			"Solo yo",
 			"Estaré solo",

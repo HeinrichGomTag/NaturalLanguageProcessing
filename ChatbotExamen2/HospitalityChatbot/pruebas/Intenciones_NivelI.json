@@ -2,7 +2,6 @@
         {"tag": "Reservar_Habitacion",
          "patterns": ["Quiero hacer una reserva",
 		"Quiero reservar una habitación",
-		"Reservar habitación",
 		"Me gustaría reservar una habitación", 
 		"¿Puedo reservar una habitación?", 
 		"Por favor reserva una habitación",
@@ -24,6 +23,7 @@
 		"Quiero pedir servicio al cuarto",
 		"Me gustaría solicitar servicio al cuarto",
 		"Quiero pedir servicio a la habitación",
+		"Room service",
 		"Quiero apartar un espacio"]
         },
 		{"tag": "Historia_Hotel",
@@ -70,6 +70,21 @@
 		"¿Qué experiencias culturales ofrece esta área?",
 		"Me interesa explorar sitios de interés en esta región",
 		"¿Qué recomendaciones tienen para el turismo local?"]
+		},
+		{"tag": "Famosos_hotel",
+		"patterns": [
+		"¿Qué celebridades han estado en este hotel?",
+		"¿Qué famosos han venido a este hotel?",
+		"¿Qué famosos han visitado este hotel?",
+		"¿Qué celebridades han visitado este hotel?",
+		"¿Qué famosos han estado en este hotel?",
+		"¿Qué celebridades han pasado por este hotel?",
+		"¿Qué famosos han pasado por este hotel?",
+		"¿Qué celebridades han reservado en este hotel?",
+		"¿Qué famosos han reservado en este hotel?"
+		]
 		}
+
+
    ]
 }
