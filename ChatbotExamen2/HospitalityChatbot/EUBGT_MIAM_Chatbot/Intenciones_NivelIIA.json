@@ -1,0 +1,70 @@
+{"intents": [
+        {"tag": "Tipo_Habitacion",
+         "patterns": [
+			"Quisiera una habitación estándar",
+			"Prefiero una suite",
+			"Me gustaría reservar una habitación doble",
+			"Necesito una habitación familiar",
+			"Estoy buscando una habitación deluxe",
+			"Quiero una habitación con dos camas",
+			"¿Qué tipos de habitaciones ofrecen?",
+			"Busco una habitación económica",
+			"Quiero un cuarto estándar",
+			"Me gustaría reservar un cuarto doble",
+			"Necesito un cuarto familiar",
+			"Quiero un cuarto con dos camas",
+			"¿Qué tipos de cuartos ofrecen?",
+			"Quiero un cuarto con vista al mar",
+			"Busco un cuarto económico"
+		  ]
+        },
+		{"tag": "Fecha_entrada",
+		 "patterns": [
+			"Quiero que sea para hoy",
+			"Para llegar mañana",
+			"Para llegar pasado mañana",
+			"Quiero llegar el Lunes",
+			"Quiero llegar el Martes",
+			"Quiero llegar el Miércoles",
+			"Quiero llegar el Jueves",
+			"Quiero llegar el Viernes",
+			"Quiero llegar el Sábado",
+			"Quiero llegar el Domingo"
+		 ]
+		},
+		{"tag": "Fecha_salida",
+		 "patterns": [
+			"Para salir mañana",
+			"Para salir pasado mañana",
+			"Para salir la siguiente semana",
+			"Para salir el siguiente mes",
+			"Quiero salir el Lunes",
+			"Quiero salir el Martes",
+			"Quiero salir el Miércoles",
+			"Quiero salir el Jueves",
+			"Quiero salir el Viernes",
+			"Quiero salir el Sábado",
+			"Quiero salir el Domingo"
+		 ]
+		},
+		{"tag": "Num_huespedes",
+		 "patterns": [
+			"Solo seré yo",
+			"Solo yo",
+			"Estaré solo",
+			"Somos 2 personas",
+			"Somos 3 personas",
+			"Somos 4 personas",
+			"Vamos a ser 2 personas",
+			"Vamos a ser 3 personas",
+			"Vamos a ser 4 personas",
+			"Somos dos personas",
+			"Somos tres personas",
+			"Somos cuatro personas",
+			"Vamos a ser dos personas",
+			"Vamos a ser tres personas",
+			"Vamos a ser cuatro personas"
+		 ]
+		}
+   ]
+}
